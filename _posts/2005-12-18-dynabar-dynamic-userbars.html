@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: DynaBar - dynamic userbars!
+author:
+  display_name: Shrimp
+  login: shrimp
+  email: shrimp@shrimpworks.za.net
+  url: http://shrimpworks.za.net/
+author_login: shrimp
+author_email: shrimp@shrimpworks.za.net
+author_url: http://shrimpworks.za.net/
+wordpress_id: 52
+wordpress_url: http://malcolm.shrimpworks.za.net/~shrimp/blog/?p=52
+date: '2005-12-18 23:55:46 +0200'
+date_gmt: '2005-12-18 21:55:46 +0200'
+categories:
+- Random
+- Development
+tags:
+- images
+- userbars
+- PHP
+- Signatures
+- GD2
+---
+<p><em><strong>Update</strong>: <a href="http://shrimpworks.za.net/2006/08/07/dynabar-2-more-dynamic-userbars/">DynaBar 2 is available</a>, the download link below is out of date.</em></p>
+<p>Finally got around to making a proper release of something :).</p>
+<p>Presenting DynaBar, a PHP script which can create dynamic images through the use of plugins, inspired by the <a href="http://userbars.com/">Userbars.com</a> website.</p>
+<p>I thought it would be cool to be able to have userbars with dynamic data in them, stuff like game server status, stats, etc., etc. to make them a little more exciting. I also wanted to learn a bit more about PHP's image manipulation, so this proved a good oppertunity for that.</p>
+<p>Basically, the whole thing works off a plugin system, which lets you drop in a PHP script (the plugin), set up a config file (the userbar), and link to an image. DynaBar then goes about loading the plugin, requesting it's data (so it goes off and collects stats, or whatever), and building the final image (putting on the [optional] scanline effect, glossy shine, and layering the text data from the plugin on all of that).</p>
+<p>I've also created a small designer script, which allows you or any users to create new userbars using plugins or whatever, with their own images and content, in a simple wizard-like interface. The end result is ready-to-use forum or HTML code. :).</p>
+<p>Here are some examples, using plugins included in the package:</p>
+<p><img src="http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_clan.png" /><br />
+Simple, plain text (nothing dynamic about it).</p>
+<p><img src="http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_lastfm.png" /><br />
+This one queries <a href="http://www.last.fm/user/Shrimpza/">LastFM</a> for which song I've played most recently in my media player.</p>
+<p><img src="http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_bf2tracker.png" /><br />
+Finally, here we have Battlefield 2 stats, coming from <a href="http://bf2tracker.com/thread.php?threadid=6625">BF2Tracker's clan XML feed</a>.</p>
+<p>Grab the download from the bottom of this post. Please read the README in the doc/ directory.</p>

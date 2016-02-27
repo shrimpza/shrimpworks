@@ -1,0 +1,57 @@
+---
+layout: post
+status: publish
+published: true
+title: Explode and Implode for Delphi…
+author:
+  display_name: Shrimp
+  login: shrimp
+  email: shrimp@shrimpworks.za.net
+  url: http://shrimpworks.za.net/
+author_login: shrimp
+author_email: shrimp@shrimpworks.za.net
+author_url: http://shrimpworks.za.net/
+wordpress_id: 30
+wordpress_url: http://malcolm.shrimpworks.za.net/~shrimp/blog/?p=30
+date: '2005-07-06 13:57:32 +0200'
+date_gmt: '2005-07-06 11:57:32 +0200'
+categories:
+- Development
+tags: []
+---
+<p>Since I'm bored at the moment, I might as well post some code :D</p>
+<p>PHP has 2 nice functions, explode() which breaks a string into an array using a seperator, and implode() which takes an array and glues it back into a single string using a seperator. I use it regularly, so eventually ended up needing one for Delphi too.</p>
+<p>I cannot take full credit for the Explode function however, I found it somewhere and can't for the life of me remember where that might be. It is somewhat modified from the original though...</p>
+<p>Also note that these work with TStrings, rather than arrays.</p>
+<pre class="prettyprint"><code class="language-pascal">function Explode(const str: string; const separator: string): TStrings;
+var
+  n: integer;
+  p, q, s: PChar;
+  item: string;
+begin
+  Result := TStringList.Create;
+  try
+    p := PChar(str);
+    s := PChar(separator);
+    n := Length(separator);
+    repeat
+      q := StrPos(p, s);
+      if q = nil then q := StrScan(p, #0);
+      SetString(item, p, q - p);
+      Result.Add(item);
+      p := q + n;
+    until q^ = #0;
+  except
+    item := '';
+    Result.Free;
+    raise;
+  end;
+end;</code></pre>
+<pre class="prettyprint"><code class="language-pascal">function Implode(const Strings: TStrings; const separator: string): String;
+var
+  i: Integer;
+begin
+  Result := Strings[0];
+  for i := 1 to Strings.Count - 1 do
+    Result := Result + separator + Strings[i];
+end;</code></pre>

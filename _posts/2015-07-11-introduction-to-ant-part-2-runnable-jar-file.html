@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Introduction to Ant Part 2: Runnable Jar File'
+author:
+  display_name: Shrimp
+  login: shrimp
+  email: shrimp@shrimpworks.za.net
+  url: http://shrimpworks.za.net/
+author_login: shrimp
+author_email: shrimp@shrimpworks.za.net
+author_url: http://shrimpworks.za.net/
+wordpress_id: 816
+wordpress_url: http://shrimpworks.za.net/?p=816
+date: '2015-07-11 10:26:27 +0200'
+date_gmt: '2015-07-11 08:26:27 +0200'
+categories:
+- Development
+tags:
+- Tutorials
+- Java
+- Ant
+---
+<p><img src="http://shrimpworks.za.net/wp-content/uploads/2015/07/101764-150x150.png" width="200" height="200" class="alignleft" />In part 1, we went over the basics of <a href="http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/">using Ant to create a redistributable <code>.jar</code> file</a>, suitable for use as a library in other projects. A lot of the time however, you're probably going to want to be building things which can actually be <em>run</em> as regular Java applications.</p>
+<p>Once again, the <a href="https://github.com/shrimpza/ant-tutorial/tree/master/part02">code for this tutorial is available in GitHub</a>. More usefully, you may want to see the <a href="https://github.com/shrimpza/ant-tutorial/commit/7425d635cfc68444e1abbc4b16ddf2ccb83337f0">diff between the part 1 script and the new one</a>.</p>
+<p>Here's a quick explanation of what we've done to achieve an executable jar file:</p>
+<p><a id="more"></a><a id="more-816"></a></p>
+<pre class="prettyprint"><code class="language-xml">    <!-- for a runnable jar file, add the main class name -->
+    <property name="main.class" value="net.shrimpworks.ant.Main"/>
+</code></pre>
+<p>Along with other common properties which may change from project-to-project, I like to include the main class definition near the top. This is simply the full class name of the class which holds your <code>public static void main(...)</code> method.</p>
+<p>When making non-runnable library projects, this may be left blank in the future.</p>
+<pre class="prettyprint"><code class="language-xml">        <jar ...>
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+            </manifest>
+            ....
+        </jar>
+</code></pre>
+<p>Here, we're telling the Ant <a href="https://ant.apache.org/manual/Tasks/jar.html">jar task</a> to create a custom <a href="https://ant.apache.org/manual/Tasks/manifest.html">Manifest file</a> within the <code>.jar</code> file. The only attribute we need at this point, is to tell it where to find our main class, stored in the <code>${main.class}</code> property. This manifest will also expand in future revisions of this build file as we delve into dependency management and introduce third party libraries to our project.</p>
+<p>That's all there is to this part. A quick <code>ant</code> in the project directory, will yield an updated <code>.jar</code> file, which can be executed as follows:</p>
+<p><code>$ java -jar dist/hello-world.jar</code></p>
+<hr/>
+<p>Other parts in this series:</p>
+<p><a href="http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/">Part 1: A Basic Build</a><br />
+<a href="http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/">Part 3: Dependency Management with Ivy</a><br />
+<a href="http://shrimpworks.za.net/2015/09/18/introduction-to-ant-part-4-unit-tests-with-junit/">Part 4: Unit Tests with JUnit</a></p>
