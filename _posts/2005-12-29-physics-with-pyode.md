@@ -21,7 +21,7 @@ framework didn't work out too well, so I gave in and took a look around
 for options.
 
 It seems only ODE is available to Python, via
-[PyODE](http://pyode.sf.net/). Not many \[open source\] physics engines
+[PyODE](http://pyode.sf.net/). Not many [open source] physics engines
 seem to have Python bindings, which I find rather odd.
 
 As it turns out, it isn't actually all that of a mission to get ODE and
@@ -42,4 +42,4 @@ with, not knowing quite where or how to begin, and there is no
 PyODE/PyOgre example code floating around to reference.
 
 *EDIT: Example using PyODE and PyOgre now available -
-http://shrimpworks.za.net/2006/03/21/pyode-physics-in-pyogre-example/*
+<http://shrimpworks.za.net/2006/03/21/pyode-physics-in-pyogre-example/>*

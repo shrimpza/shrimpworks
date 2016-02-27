@@ -22,7 +22,8 @@ unfortunately. Due to time and pressure I've been relying on good old
 Open Source to help me out. There's actually a helluva lot of stuff out
 there to make things easier for just about anything you need to do...
 
--   **ADOdb** - <http://adodb.sourceforge.net/>\
+-   **ADOdb** - <http://adodb.sourceforge.net/>
+
     Obviously the first thing to get going on any database-aware
     application, is to actually interact with the database. PHP has an
     Interbase module, with a whole bunch of Interbase functions. These
@@ -32,7 +33,8 @@ there to make things easier for just about anything you need to do...
     access to a huge assortment of database drivers (of corse all
     dependent on normal PHP modules). It's even available for Python
     now!
--   **Smarty** - <http://smarty.php.net/>\
+-   **Smarty** - <http://smarty.php.net/>
+
     Next you'd presumably like a fancy presentation for
     your application. You have three options here - painfully output
     every single line of HTML manually through your code, create
@@ -47,7 +49,8 @@ there to make things easier for just about anything you need to do...
     is the ability to define your own smarty functions, allowing you to
     add custom functionality to your templates and the output
     they generate.
--   **PHP pdf / PDFClass** - <http://ros.co.nz/pdf/>\
+-   **PHP pdf / PDFClass** - <http://ros.co.nz/pdf/>
+
     One of the requirements of this project was that reports had to be
     generated in user and printer friendly PDF format. At first I looked
     into the option of having Smarty generate tabular reports, and get
@@ -67,7 +70,8 @@ there to make things easier for just about anything you need to do...
     where I can play with it. I've built a very nice reporting class
     around this package.
 -   **Code 3 of 9 Barcode Generator** -
-    <http://www.sid6581.net/cs/php-scripts/barcode/>\
+    <http://www.sid6581.net/cs/php-scripts/barcode/>
+
     Another requirement of the system is the ability to group multiple
     items into a single item. From the code side of things, it's fairly
     simple, but to users, trying to manage these million boxes of
@@ -78,7 +82,8 @@ there to make things easier for just about anything you need to do...
     help of a little Javascript, users can even scale the barcodes up
     and down (by dynamically reloading the image, not just changing the
     dimensions and possibly corrupting it) before printing.
--   **PHPMailer** - <http://phpmailer.sourceforge.net/>\
+-   **PHPMailer** - <http://phpmailer.sourceforge.net/>
+
     I'm using this for sending my PDF reports via email. It allows you
     to easily attach files, or file content (so I don't need to save the
     PDF's to temp files before attaching, just attach the output

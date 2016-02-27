@@ -34,20 +34,20 @@ wouldn't always work out.
 So I looked into serializing the actual report object used to generate
 any of the above report types, since that object contains absolutely all
 data, totals, titles, info, etc.. Unfortunately, PHP's built-in
-serialize() and unserialize() functions don't work too well with complex
+`serialize()` and `unserialize()` functions don't work too well with complex
 data structures (arrays within classes, multi-dimentional arrays, etc,
 etc), and I couldn't really work around all that without writing a few
 GBs of code onto my report class.
 
 SO, I turned to XML. As it turns out, the [PEAR](http://pear.php.net)
 'suite' of scripts contains a rather useful [XML serialization class
--XML\_Serializer](http://pear.php.net/package/XML_Serializer), which can
+-XML_Serializer](http://pear.php.net/package/XML_Serializer), which can
 turn any data structure into an XML string, and for reading those
 strings back to usable PHP variables and objects.
 
 It's really quite simple:
 
-``` {.prettyprint}
+```php
 $object = new SomeClass();
 $object->var1 = "Hello World";
 $object->etc();
@@ -57,13 +57,13 @@ $serializer->serialize($object);
 $xml = $serializer->getSerializedData();
 ```
 
-\$xml now contains the full definition of \$object in XML. You can write
-\$xml to a file, save it in a database, whatever you like.
+`$xml` now contains the full definition of `$object` in XML. You can write
+`$xml` to a file, save it in a database, whatever you like.
 
 You can then come back later, and load the file/database record/etc into
-a string, and unserialize it...
+a string, and deserialize it...
 
-``` {.prettyprint}
+```php
 $unserializer = &new XML_Unserializer();
 $unserializer->unserialize($xml);
 $object2 = $unserializer->getUnserializedData();

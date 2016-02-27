@@ -16,9 +16,9 @@ tags:
 article](http://programming.newsforge.com/article.pl?sid=05/11/23/1914216&from=rss),
 since some other seemingly know-it-all n00bs were ranting in the
 comments about Smarty being a waste of time, however their comments
-system won't let me post \[most likely a problem on SAIX's side\])
+system won't let me post [most likely a problem on SAIX's side])
 
---
+---
 
 After having used Smarty for around 2 years now, I don't think I could
 ever go back to writing PHP applications without it.

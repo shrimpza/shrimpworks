@@ -28,7 +28,7 @@ buggered.
 So I came up with a crackful work-around (as I'm finding 90% of all
 Delphi coding is):
 
-``` {.prettyprint}
+```pascal
 procedure pngGlyph(Btn: TControl; Img: String);
 var
     PNG: TPNGObject;
@@ -38,10 +38,7 @@ begin
     BMP := TBitmap.Create;
 
     try
-        PNG.LoadFromFile('path\to\glyphs
-To use it, you call it like "pngGlyph(SpeedOrBitButton, 'glyphname');", and the procedure will hack your button's glyph into something that looks nice. You can use fully alpha-enabled PNG files, and they should look right.
-Of corse it would be better to create a new button type with this procedure inside that, so you don't have to call this for every button you want to add a PNG to, but I don't really feel like re-adding a million buttons, it's quicker for me to do a million procedure calls :).
-+Img+'.PNG');   // Update the path to your .png files, or update this to get them somewhere else.
+        PNG.LoadFromFile('path\to\glyphs\'+Img+'.PNG');   // Update the path to your .png files, or update this to get them somewhere else.
 
         BMP.Width := PNG.Width;
         BMP.Height := PNG.Height;
@@ -62,7 +59,7 @@ Of corse it would be better to create a new button type with this procedure insi
 end;
 ```
 
-To use it, you call it like "pngGlyph(SpeedOrBitButton, 'glyphname');",
+To use it, you call it like `pngGlyph(SpeedOrBitButton, 'glyphname');`,
 and the procedure will hack your button's glyph into something that
 looks nice. You can use fully alpha-enabled PNG files, and they *should*
 look right.

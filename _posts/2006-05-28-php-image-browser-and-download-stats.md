@@ -12,7 +12,8 @@ tags: []
 
 Created two very basic scripts this past week:
 
-The first, a basic **Image Browser**:\
+The first, a basic **Image Browser**:
+
 Basically, I really hate trying to set up and use normal image
 publishing/gallery software. Something like
 [Gallery](http://gallery.sf.net/) is pretty nice and feature packed, but
@@ -34,9 +35,10 @@ if you'd like. Since the thumbnails are generated on the fly as needed,
 there's no database or anything, and adding a new image is as simple as
 dropping the file into your image directory.
 
-The second script, is a **Download Tracker**:\
+The second script, is a **Download Tracker**:
+
 Extremely simple again, simply does a count of hits on any file passed
-to the "file.php" script. The files can be located anywhere on the
+to the `file.php` script. The files can be located anywhere on the
 system (so if you *really* don't want people getting at your files
 without going through the counter, they can be outside of your www
 published path).
@@ -47,16 +49,16 @@ It keeps track of the hits by simply storing them in a regular PHP
 array, and then serializing this array to a file. Next time the file it
 requested, the hit log file is loaded, then unserialized into the array,
 the array is updated and serialized again. :). So you'll need to make
-sure the "files.log" file is writable by the web server (or the whole
+sure the `files.log` file is writable by the web server (or the whole
 directory the tracker files are in). It also requires PHP5, unless you
-write replacement functions for file\_get\_contents() and
-file\_put\_contents() on earlier PHP versions.
+write replacement functions for `file_get_contents()` and
+`file_put_contents()` on earlier PHP versions.
 
 Link to a file as follows:
-"http://my\_site.za.net/file.php?installer.exe", or even
-"http://my\_site.za.net/file.php?path/to/document.pdf"
+`http://my-site.za.net/file.php?installer.exe`, or even
+`http://my-site.za.net/file.php?path/to/document.pdf`
 
-You can then view the hits and things via the "file\_stats.php" which
+You can then view the hits and things via the `file_stats.php` which
 outputs a very basic tabular representation of the stats the hit log
 tracks.
 

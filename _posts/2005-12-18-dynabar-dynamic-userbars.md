@@ -34,7 +34,7 @@ Basically, the whole thing works off a plugin system, which lets you
 drop in a PHP script (the plugin), set up a config file (the userbar),
 and link to an image. DynaBar then goes about loading the plugin,
 requesting it's data (so it goes off and collects stats, or whatever),
-and building the final image (putting on the \[optional\] scanline
+and building the final image (putting on the [optional] scanline
 effect, glossy shine, and layering the text data from the plugin on all
 of that).
 
@@ -45,14 +45,14 @@ ready-to-use forum or HTML code. :).
 
 Here are some examples, using plugins included in the package:
 
-![](http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_clan.png)\
+![](http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_clan.png)
 Simple, plain text (nothing dynamic about it).
 
-![](http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_lastfm.png)\
+![](http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_lastfm.png)
 This one queries [LastFM](http://www.last.fm/user/Shrimpza/) for which
 song I've played most recently in my media player.
 
-![](http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_bf2tracker.png)\
+![](http://omg.shrimpworks.za.net/dev/dynabar/show/shrimp_bf2tracker.png)
 Finally, here we have Battlefield 2 stats, coming from [BF2Tracker's
 clan XML feed](http://bf2tracker.com/thread.php?threadid=6625).
 

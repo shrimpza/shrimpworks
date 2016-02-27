@@ -15,5 +15,4 @@ perfectly since I upgraded to PHP5, except this site :(.
 So for the time being, the attachments plugin is disabled (the cause of
 the problem), so no downloads are available until I fixxor it.
 
-***Edit:***\
-Well, that took all of 5 minutes to fix ;)
+***Edit:** Well, that took all of 5 minutes to fix ;)*

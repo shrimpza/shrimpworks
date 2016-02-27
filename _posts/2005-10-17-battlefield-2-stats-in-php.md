@@ -20,7 +20,7 @@ add an update for that.
 
 Simple PHP code for Battlefield 2 Stats retrieval:
 
-``` {.prettyprint}
+```php
     ini_set("user_agent","GameSpyHTTP/1.0");
 
     $info = "per*,cmb*,twsc,cpcp,cacp,dfcp,kila,heal,rviv,rsup,rpar,tgte,dkas,dsab,cdsc,rank,cmsc,kick,kill,deth,suic,ospm,klpm,klpr,dtpr,bksk,wdsk,bbrs,tcdr,ban,dtpm,lbtl,osaa,vrk,tsql,tsqm,tlwf,mvks,vmks,mvn*,vmr*,fkit,fmap,fveh,fwea,wtm-,wkl-,wdt-,wac-,wkd-,vtm-,vkl-,vdt-,vkd-,vkr-,atm-,awn-,alo-,abr-,ktm-,kkl-,kdt-,kkd-";
@@ -36,7 +36,7 @@ Simple PHP code for Battlefield 2 Stats retrieval:
 Note that if you're not using PHP5, you'll need to add the following
 drop-in replacement for the "array\_combine" function:
 
-``` {.prettyprint}
+```php
     function array_combine($keys, $vals) {
         $i = 0;
         foreach ($keys as $key) {

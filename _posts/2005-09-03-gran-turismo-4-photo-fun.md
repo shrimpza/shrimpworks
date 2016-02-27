@@ -30,8 +30,10 @@ contraptions. Anyway, once saved, you pop off to your nearest PC and
 offload your pics (which are saved in JPG format).
 
 A few of my results (I only have cheap cars in my garage at the
-moment);\
+moment);
+
 [Toyota
-RunX](http://pics.shrimpworks.za.net/gallery2/v/GameShots/IMG0001.JPG.html)\
+RunX](http://pics.shrimpworks.za.net/gallery2/v/GameShots/IMG0001.JPG.html)
+
 [Mitsubishi
 3000GT](http://pics.shrimpworks.za.net/gallery2/v/GameShots/IMG0002.JPG.html)

@@ -19,7 +19,7 @@ Anyway, I wanted to give my [Supybot](http://www.supybot.net) IRC bot
 ("Nooblet" on Shadowfire) the ability to check my own and other people's
 stats whenever they felt like it. I came up with something like this:
 
-``` {.prettyprint}
+```python
 import urllib2
 from string import split
 from time import time

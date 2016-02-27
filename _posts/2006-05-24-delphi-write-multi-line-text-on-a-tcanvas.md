@@ -25,7 +25,7 @@ pass the width and height of the canvas you're drawing to. It assumes
 the font can everything else has been set by you, prior to calling it.
 Also, be sure "Graphics" is in your "uses" section.
 
-``` {.prettyprint}
+```pascal
 procedure multilineCanvasText(canvas: TCanvas; text: String; width, height: Integer);
 var
   textSize: TSize;

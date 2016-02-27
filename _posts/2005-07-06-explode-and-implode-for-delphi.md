@@ -22,7 +22,7 @@ is somewhat modified from the original though...
 
 Also note that these work with TStrings, rather than arrays.
 
-``` {.prettyprint}
+```pascal
 function Explode(const str: string; const separator: string): TStrings;
 var
   n: integer;
@@ -49,7 +49,7 @@ begin
 end;
 ```
 
-``` {.prettyprint}
+```pascal
 function Implode(const Strings: TStrings; const separator: string): String;
 var
   i: Integer;
