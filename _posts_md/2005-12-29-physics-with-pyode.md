@@ -1,12 +1,20 @@
---- layout: post status: publish published: true title: Physics with
-PyODE author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 54 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=54 date: '2005-12-29
-00:00:16 +0200' date\_gmt: '2005-12-28 22:00:16 +0200' categories: -
-Gaming - Development tags: - python - Physics - Ogre - PyOgre - ODE -
-PyODE ---
+---
+layout: post
+status: publish
+published: true
+title: Physics with PyODE
+date: '2005-12-29 00:00:16 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- python
+- Physics
+- Ogre
+- PyOgre
+- ODE
+- PyODE
+---
 
 My idea for implimenting non-physics physics into my little game
 framework didn't work out too well, so I gave in and took a look around

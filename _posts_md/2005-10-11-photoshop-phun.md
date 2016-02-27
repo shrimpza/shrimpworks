@@ -1,12 +1,18 @@
---- layout: post status: publish published: true title: Photoshop Phun
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 45 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=45 date: '2005-10-11
-15:32:24 +0200' date\_gmt: '2005-10-11 13:32:24 +0200' categories: -
-Random - Gaming tags: - Battlefield 2 - Photoshop - photo manipulation -
-Qatar Doha ---
+---
+layout: post
+status: publish
+published: true
+title: Photoshop Phun
+date: '2005-10-11 15:32:24 +0200'
+categories:
+- Random
+- Gaming
+tags:
+- Battlefield 2
+- Photoshop
+- photo manipulation
+- Qatar Doha
+---
 
 Someone posted an image of somewhere they're staying in "Qatar Doha"
 (no, I don't know exactly where that is ;)) on the [SGS

@@ -1,11 +1,15 @@
---- layout: post status: publish published: true title: Latest dyno
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 147 wordpress\_url:
-http://shrimpworks.za.net/?p=147 date: '2010-12-21 23:07:25 +0200'
-date\_gmt: '2010-12-21 21:07:25 +0200' categories: - Cars tags: - Type R
-- Dyno ---
+---
+layout: post
+status: publish
+published: true
+title: Latest dyno
+date: '2010-12-21 23:07:25 +0200'
+categories:
+- Cars
+tags:
+- Type R
+- Dyno
+---
 
 [![](http://shrimpworks.za.net/wp-content/uploads/2010/12/WRC_Dyno_20101211-212x300.jpg "WRC_Dyno_20101211"){.alignright
 .size-medium .wp-image-148 width="136"

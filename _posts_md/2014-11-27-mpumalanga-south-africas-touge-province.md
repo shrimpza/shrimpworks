@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Mpumalanga -
-South Africa's Touge Province author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 636
-wordpress\_url: http://shrimpworks.za.net/?p=636 date: '2014-11-27
-19:27:51 +0200' date\_gmt: '2014-11-27 17:27:51 +0200' categories: -
-Random - Cars tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Mpumalanga - South Africa's Touge Province
+date: '2014-11-27 19:27:51 +0200'
+categories:
+- Random
+- Cars
+tags: []
+---
 
 This past week, I was supposed to be visiting [Mpumalanga's Parorama
 Route](http://www.southafrica.net/za/en/articles/entry/article-southafrica.net-the-panorama-route),

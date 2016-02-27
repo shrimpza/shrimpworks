@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: E-Check v2
-progress author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 7 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=7 date: '2005-01-12
-19:39:48 +0200' date\_gmt: '2005-01-12 17:39:48 +0200' categories: -
-Development tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: E-Check v2 progress
+date: '2005-01-12 19:39:48 +0200'
+categories:
+- Development
+tags: []
+---
 
 Well today I got multiple accounts working as well as writing/reading
 to/from a config file thanks to the ConfigParser module.

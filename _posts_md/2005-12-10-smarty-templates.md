@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: Smarty Templates
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 51 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=51 date: '2005-12-10
-13:36:25 +0200' date\_gmt: '2005-12-10 11:36:25 +0200' categories: -
-Rants tags: - PHP - Smarty - Templates ---
+---
+layout: post
+status: publish
+published: true
+title: Smarty Templates
+date: '2005-12-10 13:36:25 +0200'
+categories:
+- Rants
+tags:
+- PHP
+- Smarty
+- Templates
+---
 
 (Wanted to reply to [this NewsForge
 article](http://programming.newsforge.com/article.pl?sid=05/11/23/1914216&from=rss),

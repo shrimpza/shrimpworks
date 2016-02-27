@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Perspective
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 625 wordpress\_url:
-http://shrimpworks.za.net/?p=625 date: '2014-11-05 21:01:31 +0200'
-date\_gmt: '2014-11-05 19:01:31 +0200' categories: - Development - Rants
-tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Perspective
+date: '2014-11-05 21:01:31 +0200'
+categories:
+- Development
+- Rants
+tags: []
+---
 
 After reading a lot of rants and essays about developers, their working
 environments, tools, the process of getting their work done (in relation

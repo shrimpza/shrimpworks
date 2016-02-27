@@ -1,12 +1,17 @@
---- layout: post status: publish published: true title: Monster Hunt
-source code release author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 58 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=58 date: '2006-02-05
-11:12:19 +0200' date\_gmt: '2006-02-05 09:12:19 +0200' categories: -
-Gaming - Development tags: - Monster Hunt - Unreal Tournament -
-UnrealScript ---
+---
+layout: post
+status: publish
+published: true
+title: Monster Hunt source code release
+date: '2006-02-05 11:12:19 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- Monster Hunt
+- Unreal Tournament
+- UnrealScript
+---
 
 Well, in the interests of Monster Hunt surviving a bit longer, I'm
 releasing the full UnrealScript source code.

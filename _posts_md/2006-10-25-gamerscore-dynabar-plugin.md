@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: GamerScore
-DynaBar plugin author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 79 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=79 date: '2006-10-25
-15:11:28 +0200' date\_gmt: '2006-10-25 13:11:28 +0200' categories: -
-Gaming - Development tags: - DynaBar - Xbox ---
+---
+layout: post
+status: publish
+published: true
+title: GamerScore DynaBar plugin
+date: '2006-10-25 15:11:28 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- DynaBar
+- Xbox
+---
 
 Since the XBox Live "GamerCards" are so [nicely
 exposed](http://gamercard.xbox.com/ShrimpyZA.card), there's really no

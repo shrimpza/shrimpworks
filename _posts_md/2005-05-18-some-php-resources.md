@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Some PHP
-resources author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 25 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=25 date: '2005-05-18
-20:36:30 +0200' date\_gmt: '2005-05-18 18:36:30 +0200' categories: -
-Development - Work tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Some PHP resources
+date: '2005-05-18 20:36:30 +0200'
+categories:
+- Development
+- Work
+tags: []
+---
 
 I've been adding some nifty things to my PHP project at work (cellphone
 starter pack invoicing, usage tracking \[big bro is watching you earn
@@ -27,7 +30,7 @@ there to make things easier for just about anything you need to do...
     however makes working with SQL databases so much easier. No need to
     remember PHP's randomly named module functions, and it gives you
     access to a huge assortment of database drivers (of corse all
-    dependent on normal PHP modules). It's even available for Oython
+    dependent on normal PHP modules). It's even available for Python
     now!
 -   **Smarty** - <http://smarty.php.net/>\
     Next you'd presumably like a fancy presentation for

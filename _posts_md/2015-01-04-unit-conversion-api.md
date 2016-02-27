@@ -1,11 +1,17 @@
---- layout: post status: publish published: true title: Unit Conversion
-API author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 682 wordpress\_url:
-http://shrimpworks.za.net/?p=682 date: '2015-01-04 19:02:18 +0200'
-date\_gmt: '2015-01-04 17:02:18 +0200' categories: - Development -
-Software tags: - PHP - API - conversion ---
+---
+layout: post
+status: publish
+published: true
+title: Unit Conversion API
+date: '2015-01-04 19:02:18 +0200'
+categories:
+- Development
+- Software
+tags:
+- PHP
+- API
+- conversion
+---
 
 I wanted to add a unit conversion plugin to
 [ZOMB](https://github.com/shrimpza/zomb) and would really have liked to

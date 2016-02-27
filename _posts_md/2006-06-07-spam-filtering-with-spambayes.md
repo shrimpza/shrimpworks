@@ -1,12 +1,21 @@
---- layout: post status: publish published: true title: Spam filtering
-with SpamBayes author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 66 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=66 date: '2006-06-07
-09:12:04 +0200' date\_gmt: '2006-06-07 07:12:04 +0200' categories: -
-Linux - Software tags: - python - spam - spambayes - dovecot - imap -
-pop3 - mail filtering ---
+---
+layout: post
+status: publish
+published: true
+title: Spam filtering with SpamBayes
+date: '2006-06-07 09:12:04 +0200'
+categories:
+- Linux
+- Software
+tags:
+- python
+- spam
+- spambayes
+- dovecot
+- imap
+- pop3
+- mail filtering
+---
 
 Alright, so I've been getting more and more spam in recent weeks, and
 they've been getting harder and harder to build basic filter rules for.

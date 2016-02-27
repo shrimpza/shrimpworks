@@ -1,10 +1,12 @@
---- layout: post status: publish published: true title: Using FindBugs
-with Ant author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 789 wordpress\_url:
-http://shrimpworks.za.net/?p=789 date: '2015-06-29 19:23:53 +0200'
-date\_gmt: '2015-06-29 17:23:53 +0200' categories: - Random tags: \[\]
+---
+layout: post
+status: publish
+published: true
+title: Using FindBugs with Ant
+date: '2015-06-29 19:23:53 +0200'
+categories:
+- Random
+tags: []
 ---
 
 ![](http://findbugs.sourceforge.net/buggy-sm.png) I've been meaning to

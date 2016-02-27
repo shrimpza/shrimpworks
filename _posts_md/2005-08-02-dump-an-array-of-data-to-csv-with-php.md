@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Dump an array of
-data to CSV with PHP author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 34 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=34 date: '2005-08-02
-15:59:22 +0200' date\_gmt: '2005-08-02 13:59:22 +0200' categories: -
-Development tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Dump an array of data to CSV with PHP
+date: '2005-08-02 15:59:22 +0200'
+categories:
+- Development
+tags: []
+---
 
 Ok, so this is such an insanely simple thing to do. I once tried looking
 for a PHP class or package which could write Excel .xls files from data

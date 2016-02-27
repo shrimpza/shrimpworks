@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Markdocs -
-organise Markdown files as documentation author: display\_name: Shrimp
-login: shrimp email: shrimp@shrimpworks.za.net url:
-http://shrimpworks.za.net/ author\_login: shrimp author\_email:
-shrimp@shrimpworks.za.net author\_url: http://shrimpworks.za.net/
-wordpress\_id: 767 wordpress\_url: http://shrimpworks.za.net/?p=767
-date: '2015-05-04 19:29:01 +0200' date\_gmt: '2015-05-04 17:29:01 +0200'
-categories: - Development tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Markdocs - organise Markdown files as documentation
+date: '2015-05-04 19:29:01 +0200'
+categories:
+- Development
+tags: []
+---
 
 Here's a thing I've been wanting for a while now, and have been unable
 to something to suite my needs (well, more *wants* than *needs*, I

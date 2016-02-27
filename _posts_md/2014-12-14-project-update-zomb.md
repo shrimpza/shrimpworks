@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Project Update -
-ZOMB author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 670 wordpress\_url:
-http://shrimpworks.za.net/?p=670 date: '2014-12-14 15:19:34 +0200'
-date\_gmt: '2014-12-14 13:19:34 +0200' categories: - Development -
-Software tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Project Update - ZOMB
+date: '2014-12-14 15:19:34 +0200'
+categories:
+- Development
+- Software
+tags: []
+---
 
 [![zomb-web](http://shrimpworks.za.net/wp-content/uploads/2014/12/zomb-web-1024x537.png){.aligncenter
 .size-large .wp-image-674 width="560"

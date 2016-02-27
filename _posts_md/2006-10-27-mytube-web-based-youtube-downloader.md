@@ -1,12 +1,18 @@
---- layout: post status: publish published: true title: myTube -
-Web-based YouTube downloader author: display\_name: Shrimp login: shrimp
-email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 80
-wordpress\_url: http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=80
-date: '2006-10-27 21:52:42 +0200' date\_gmt: '2006-10-27 19:52:42 +0200'
-categories: - Development - Software tags: - python - PHP - Video -
-YouTube ---
+---
+layout: post
+status: publish
+published: true
+title: myTube - Web-based YouTube downloader
+date: '2006-10-27 21:52:42 +0200'
+categories:
+- Development
+- Software
+tags:
+- python
+- PHP
+- Video
+- YouTube
+---
 
 Heh, I guess there are already plenty of tools out there which do this
 sort of thing already (never seen them personally, but then I've never

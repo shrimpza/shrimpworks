@@ -1,11 +1,17 @@
---- layout: post status: publish published: true title: SaveScreen 2
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 85 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=85 date: '2007-04-08
-15:05:59 +0200' date\_gmt: '2007-04-08 13:05:59 +0200' categories: -
-Gaming - Development - Software tags: - SaveScreen - ImagesHack - FTP
+---
+layout: post
+status: publish
+published: true
+title: SaveScreen 2
+date: '2007-04-08 15:05:59 +0200'
+categories:
+- Gaming
+- Development
+- Software
+tags:
+- SaveScreen
+- ImagesHack
+- FTP
 ---
 
 A long time ago, in a galaxy not far away, I created a very small

@@ -1,11 +1,17 @@
---- layout: post status: publish published: true title: Battlefield 2
-Stats in PHP author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 47 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=47 date: '2005-10-17
-14:08:03 +0200' date\_gmt: '2005-10-17 12:08:03 +0200' categories: -
-Gaming - Development tags: - PHP - Battlefield 2 - Stats ---
+---
+layout: post
+status: publish
+published: true
+title: Battlefield 2 Stats in PHP
+date: '2005-10-17 14:08:03 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- PHP
+- Battlefield 2
+- Stats
+---
 
 I've had a couple of questions regarding my [Battlefile 2 Stats in
 Python](http://shrimpworks.za.net/2005/09/12/battlefield-2-stats-in-python/)

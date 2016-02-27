@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: SmoothWall
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 33 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=33 date: '2005-07-29
-10:04:41 +0200' date\_gmt: '2005-07-29 08:04:41 +0200' categories: -
-Rants - Linux - Work - Software tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: SmoothWall
+date: '2005-07-29 10:04:41 +0200'
+categories:
+- Rants
+- Linux
+- Work
+- Software
+tags: []
+---
 
 I must say, I'm rather dissapointed with my "SmoothWall experience" so
 far. I've been tasked with setting up a SmoothWall firewall/proxy

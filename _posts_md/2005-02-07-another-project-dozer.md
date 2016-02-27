@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Another project
-- Dozer author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 19 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=19 date: '2005-02-07
-20:26:31 +0200' date\_gmt: '2005-02-07 18:26:31 +0200' categories: -
-Development tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Another project - Dozer
+date: '2005-02-07 20:26:31 +0200'
+categories:
+- Development
+tags: []
+---
 
 \*sigh\* Look at me starting a million projects and never finishing any
 of them :P.

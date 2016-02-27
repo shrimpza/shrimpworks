@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Outer Space
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 9 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=9 date: '2005-01-16
-19:44:09 +0200' date\_gmt: '2005-01-16 17:44:09 +0200' categories: -
-Gaming tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Outer Space
+date: '2005-01-16 19:44:09 +0200'
+categories:
+- Gaming
+tags: []
+---
 
 Here's something that's been keeping me quite entertained recently.
 Outer Space is an online multiplayer space game where you try to explore

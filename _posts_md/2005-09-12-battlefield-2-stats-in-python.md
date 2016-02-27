@@ -1,11 +1,17 @@
---- layout: post status: publish published: true title: Battlefield 2
-Stats in Python author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 41 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=41 date: '2005-09-12
-09:55:22 +0200' date\_gmt: '2005-09-12 07:55:22 +0200' categories: -
-Gaming - Development tags: - python - Battlefield 2 - Stats ---
+---
+layout: post
+status: publish
+published: true
+title: Battlefield 2 Stats in Python
+date: '2005-09-12 09:55:22 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- python
+- Battlefield 2
+- Stats
+---
 
 Yes, so everyone's obsessed with checking their BF2 stats these days ;).
 

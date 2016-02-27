@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Gran Turismo 4
-photo fun author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 39 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=39 date: '2005-09-03
-21:01:07 +0200' date\_gmt: '2005-09-03 19:01:07 +0200' categories: -
-Gaming tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Gran Turismo 4 photo fun
+date: '2005-09-03 21:01:07 +0200'
+categories:
+- Gaming
+tags: []
+---
 
 I sat down this afternoon and had a bit of a play with Gran Turismo 4's
 Photo Tour option within GT mode. I must admit I'm rather impressed, and

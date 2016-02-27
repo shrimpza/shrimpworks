@@ -1,11 +1,15 @@
---- layout: post status: publish published: true title: Discovering
-Music with Pandora author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 46 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=46 date: '2005-10-17
-10:36:54 +0200' date\_gmt: '2005-10-17 08:36:54 +0200' categories: -
-Random tags: - music - pandora ---
+---
+layout: post
+status: publish
+published: true
+title: Discovering Music with Pandora
+date: '2005-10-17 10:36:54 +0200'
+categories:
+- Random
+tags:
+- music
+- pandora
+---
 
 So [Korpse](http://kaydash.za.net/) pointed out a rather interesting
 website the other night - [Pandora](http://www.pandora.com.).

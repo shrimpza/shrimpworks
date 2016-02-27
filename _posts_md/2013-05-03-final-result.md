@@ -1,11 +1,15 @@
---- layout: post status: publish published: true title: Final Result
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 393 wordpress\_url:
-http://shrimpworks.za.net/?p=393 date: '2013-05-03 22:15:41 +0200'
-date\_gmt: '2013-05-03 20:15:41 +0200' categories: - Cars tags: - Type R
-- Modifications ---
+---
+layout: post
+status: publish
+published: true
+title: Final Result
+date: '2013-05-03 22:15:41 +0200'
+categories:
+- Cars
+tags:
+- Type R
+- Modifications
+---
 
 [![IMG\_2194](http://shrimpworks.za.net/wp-content/uploads/2013/05/IMG_2194-1024x682.jpg){.alignleft
 .size-large .wp-image-397 width="598"

@@ -1,11 +1,18 @@
---- layout: post status: publish published: true title: User Directories
-and PHP with nginx author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 761 wordpress\_url:
-http://shrimpworks.za.net/?p=761 date: '2015-04-25 08:53:16 +0200'
-date\_gmt: '2015-04-25 06:53:16 +0200' categories: - Development - Linux
-tags: - PHP - Debian - Linux - nginx ---
+---
+layout: post
+status: publish
+published: true
+title: User Directories and PHP with nginx
+date: '2015-04-25 08:53:16 +0200'
+categories:
+- Development
+- Linux
+tags:
+- PHP
+- Debian
+- Linux
+- nginx
+---
 
 I've become fond of using nginx on my development machines, rather than
 a full Apache.

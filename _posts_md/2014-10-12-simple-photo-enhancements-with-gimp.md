@@ -1,11 +1,18 @@
---- layout: post status: publish published: true title: Simple photo
-enhancements with GIMP author: display\_name: Shrimp login: shrimp
-email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 586
-wordpress\_url: http://shrimpworks.za.net/?p=586 date: '2014-10-12
-22:04:21 +0200' date\_gmt: '2014-10-12 20:04:21 +0200' categories: -
-Linux - Software tags: - photos - Tutorials - Linux - GIMP ---
+---
+layout: post
+status: publish
+published: true
+title: Simple photo enhancements with GIMP
+date: '2014-10-12 22:04:21 +0200'
+categories:
+- Linux
+- Software
+tags:
+- photos
+- Tutorials
+- Linux
+- GIMP
+---
 
 So, being stuck without access to Photoshop and my regular Windows PC
 has taught me a little about [GIMP](http://gimp.org/) -- basically it's

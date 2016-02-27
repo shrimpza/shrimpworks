@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Couscous Salad
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 737 wordpress\_url:
-http://shrimpworks.za.net/?p=737 date: '2015-03-26 18:34:06 +0200'
-date\_gmt: '2015-03-26 16:34:06 +0200' categories: - Random tags: -
-Recipe ---
+---
+layout: post
+status: publish
+published: true
+title: Couscous Salad
+date: '2015-03-26 18:34:06 +0200'
+categories:
+- Random
+tags:
+- Recipe
+---
 
 Here's a couscous salad recipe I used recently, made by stealing ideas
 from about 3 other recipes and tweaking a bit of customising. Would eat

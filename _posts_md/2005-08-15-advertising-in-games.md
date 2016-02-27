@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Advertising in
-games author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 37 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=37 date: '2005-08-15
-21:35:41 +0200' date\_gmt: '2005-08-15 19:35:41 +0200' categories: -
-Gaming - Rants tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Advertising in games
+date: '2005-08-15 21:35:41 +0200'
+categories:
+- Gaming
+- Rants
+tags: []
+---
 
 So ja, it's been reported that the games SWAT 4 (via the latest patch)
 and the latest Splinter Cell games both have 'live' advertising, which

@@ -1,11 +1,18 @@
---- layout: post status: publish published: true title: DynaBar -
-dynamic userbars! author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 52 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=52 date: '2005-12-18
-23:55:46 +0200' date\_gmt: '2005-12-18 21:55:46 +0200' categories: -
-Random - Development tags: - images - userbars - PHP - Signatures - GD2
+---
+layout: post
+status: publish
+published: true
+title: DynaBar - dynamic userbars!
+date: '2005-12-18 23:55:46 +0200'
+categories:
+- Random
+- Development
+tags:
+- images
+- userbars
+- PHP
+- Signatures
+- GD2
 ---
 
 ***Update**: [DynaBar 2 is

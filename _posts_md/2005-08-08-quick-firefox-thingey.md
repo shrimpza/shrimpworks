@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Quick Firefox
-thingey author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 36 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=36 date: '2005-08-08
-16:54:10 +0200' date\_gmt: '2005-08-08 14:54:10 +0200' categories: -
-Software tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Quick Firefox thingey
+date: '2005-08-08 16:54:10 +0200'
+categories:
+- Software
+tags: []
+---
 
 I only noticed this rather recently.. But you can set up Firefox's
 'Homepage' option to open multiple tabs when you open the browser.

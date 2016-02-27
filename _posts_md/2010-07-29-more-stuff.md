@@ -1,11 +1,17 @@
---- layout: post status: publish published: true title: More stuff!
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 135 wordpress\_url:
-http://shrimpworks.za.net/?p=135 date: '2010-07-29 09:49:28 +0200'
-date\_gmt: '2010-07-29 07:49:28 +0200' categories: - Cars tags: - Type R
-- Modifications - Racing - Brakes ---
+---
+layout: post
+status: publish
+published: true
+title: More stuff!
+date: '2010-07-29 09:49:28 +0200'
+categories:
+- Cars
+tags:
+- Type R
+- Modifications
+- Racing
+- Brakes
+---
 
 Got some more goodies fitted to my ricemobile, this time, a rad brake
 upgrade!

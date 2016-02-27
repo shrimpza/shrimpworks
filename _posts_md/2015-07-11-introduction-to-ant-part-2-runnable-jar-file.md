@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: 'Introduction to
-Ant Part 2: Runnable Jar File' author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 816
-wordpress\_url: http://shrimpworks.za.net/?p=816 date: '2015-07-11
-10:26:27 +0200' date\_gmt: '2015-07-11 08:26:27 +0200' categories: -
-Development tags: - Tutorials - Java - Ant ---
+---
+layout: post
+status: publish
+published: true
+title: 'Introduction to Ant Part 2: Runnable Jar File'
+date: '2015-07-11 10:26:27 +0200'
+categories:
+- Development
+tags:
+- Tutorials
+- Java
+- Ant
+---
 
 ![](http://shrimpworks.za.net/wp-content/uploads/2015/07/101764-150x150.png){.alignleft
 width="200" height="200"}In part 1, we went over the basics of [using

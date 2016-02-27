@@ -1,12 +1,21 @@
---- layout: post status: publish published: true title: Game Development
-Stuff author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 53 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=53 date: '2005-12-26
-17:14:34 +0200' date\_gmt: '2005-12-26 15:14:34 +0200' categories: -
-Gaming - Development tags: - Ogre - PyOgre - Game Development - Game
-Engines - Irrlicht - Modeling - Wings 3D ---
+---
+layout: post
+status: publish
+published: true
+title: Game Development Stuff
+date: '2005-12-26 17:14:34 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- Ogre
+- PyOgre
+- Game Development
+- Game Engines
+- Irrlicht
+- Modeling
+- Wings 3D
+---
 
 It seems as though the guys at work are seriously looking into the
 option of doing some game development next year some time, and they've

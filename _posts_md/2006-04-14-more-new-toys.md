@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: More new toys
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 62 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=62 date: '2006-04-14
-15:51:11 +0200' date\_gmt: '2006-04-14 13:51:11 +0200' categories: -
-Random tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: More new toys
+date: '2006-04-14 15:51:11 +0200'
+categories:
+- Random
+tags: []
+---
 
 Well, only one for now.
 

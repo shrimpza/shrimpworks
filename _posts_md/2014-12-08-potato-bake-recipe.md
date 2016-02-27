@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Potato Bake
-Recipe author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 667 wordpress\_url:
-http://shrimpworks.za.net/?p=667 date: '2014-12-08 20:20:29 +0200'
-date\_gmt: '2014-12-08 18:20:29 +0200' categories: - Random tags: -
-Recipe ---
+---
+layout: post
+status: publish
+published: true
+title: Potato Bake Recipe
+date: '2014-12-08 20:20:29 +0200'
+categories:
+- Random
+tags:
+- Recipe
+---
 
 Yes indeed, I am posting a recipe now.
 

@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: 'Introduction to
-Ant Part 4: Unit Tests with JUnit' author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 861
-wordpress\_url: http://shrimpworks.za.net/?p=861 date: '2015-09-18
-08:24:28 +0200' date\_gmt: '2015-09-18 06:24:28 +0200' categories: -
-Development tags: - Tutorials - Java - Ant ---
+---
+layout: post
+status: publish
+published: true
+title: 'Introduction to Ant Part 4: Unit Tests with JUnit'
+date: '2015-09-18 08:24:28 +0200'
+categories:
+- Development
+tags:
+- Tutorials
+- Java
+- Ant
+---
 
 ![](http://shrimpworks.za.net/wp-content/uploads/2015/09/102857-150x150.png){.alignleft
 width="200" height="200"} Now that we have [dependency management with

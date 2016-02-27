@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: HTTP Utility
-Class for Java author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 373 wordpress\_url:
-http://shrimpworks.za.net/?p=373 date: '2013-04-22 18:42:21 +0200'
-date\_gmt: '2013-04-22 16:42:21 +0200' categories: - Development tags: -
-Java - HTTP - Utilities ---
+---
+layout: post
+status: publish
+published: true
+title: HTTP Utility Class for Java
+date: '2013-04-22 18:42:21 +0200'
+categories:
+- Development
+tags:
+- Java
+- HTTP
+- Utilities
+---
 
 Here's a small Java class I've been using in loads of applications and
 things for a few years (it's evolved a little over the years).

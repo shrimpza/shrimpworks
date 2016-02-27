@@ -1,11 +1,17 @@
---- layout: post status: publish published: true title: Serializing
-objects to XML with PHP and PEAR author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 40
-wordpress\_url: http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=40
-date: '2005-09-09 16:01:38 +0200' date\_gmt: '2005-09-09 14:01:38 +0200'
-categories: - Development - Work tags: - PHP - PEAR - XML ---
+---
+layout: post
+status: publish
+published: true
+title: Serializing objects to XML with PHP and PEAR
+date: '2005-09-09 16:01:38 +0200'
+categories:
+- Development
+- Work
+tags:
+- PHP
+- PEAR
+- XML
+---
 
 I decided it might be a good idea, from a debugging and administrative
 point of view, to save the reports people were viewing in my application

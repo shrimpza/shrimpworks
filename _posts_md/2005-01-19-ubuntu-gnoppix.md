@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Ubuntu & Gnoppix
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 12 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=12 date: '2005-01-19
-19:51:35 +0200' date\_gmt: '2005-01-19 17:51:35 +0200' categories: -
-Rants - Linux tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Ubuntu &#038; Gnoppix
+date: '2005-01-19 19:51:35 +0200'
+categories:
+- Rants
+- Linux
+tags: []
+---
 
 So I thought I'd try out the highly praised Ubuntu Linux. I thought to
 myself, what better way to try than with their LiveCD - no need to mess

@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Gregarius RSS
-Aggregator author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 35 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=35 date: '2005-08-07
-19:05:56 +0200' date\_gmt: '2005-08-07 17:05:56 +0200' categories: -
-Software tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Gregarius RSS Aggregator
+date: '2005-08-07 19:05:56 +0200'
+categories:
+- Software
+tags: []
+---
 
 Thanks to a link [mithrandi](http://mithrandi.za.net/blog/) posted in
 IRC, I've discovered this rather useful tool.

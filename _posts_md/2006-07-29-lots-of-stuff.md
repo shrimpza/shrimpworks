@@ -1,12 +1,20 @@
---- layout: post status: publish published: true title: Lots of stuff
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 67 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=67 date: '2006-07-29
-14:00:45 +0200' date\_gmt: '2006-07-29 12:00:45 +0200' categories: -
-Random - Development tags: - DynaBar - userbars - UnWheel - python -
-dosage - django ---
+---
+layout: post
+status: publish
+published: true
+title: Lots of stuff
+date: '2006-07-29 14:00:45 +0200'
+categories:
+- Random
+- Development
+tags:
+- DynaBar
+- userbars
+- UnWheel
+- python
+- dosage
+- django
+---
 
 Hmmmmm, long time no update. That's not to say I haven't been busy
 recently.

@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Sugar Free
-Breakfast Muffins author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 729 wordpress\_url:
-http://shrimpworks.za.net/?p=729 date: '2015-03-23 08:09:50 +0200'
-date\_gmt: '2015-03-23 06:09:50 +0200' categories: - Random tags: -
-Recipe ---
+---
+layout: post
+status: publish
+published: true
+title: Sugar Free Breakfast Muffins
+date: '2015-03-23 08:09:50 +0200'
+categories:
+- Random
+tags:
+- Recipe
+---
 
 This is a republishing, with some minor tweaks and alternatives
 provided, of the original recipe by [Andrew

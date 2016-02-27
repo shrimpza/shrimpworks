@@ -1,11 +1,15 @@
---- layout: post status: publish published: true title: Clean and Lean
-Debian Install with i3 author: display\_name: Shrimp login: shrimp
-email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 694
-wordpress\_url: http://shrimpworks.za.net/?p=694 date: '2015-03-29
-09:33:28 +0200' date\_gmt: '2015-03-29 07:33:28 +0200' categories: -
-Linux - Work - Software tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Clean and Lean Debian Install with i3
+date: '2015-03-29 09:33:28 +0200'
+categories:
+- Linux
+- Work
+- Software
+tags: []
+---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/87/I3_window_manager_logo.png)
 Recently, I've made the switch from KDE being my preferred Linux desktop

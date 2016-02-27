@@ -1,12 +1,17 @@
---- layout: post status: publish published: true title: Site moved, I
-moved, bought car, etc author: display\_name: Shrimp login: shrimp
-email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 87
-wordpress\_url:
-http://shrimpworks.za.net/2007/08/26/site-moved-i-moved-bought-car-etc/
-date: '2007-08-26 13:29:28 +0200' date\_gmt: '2007-08-26 11:29:28 +0200'
-categories: - Random tags: - Johannesburg - Honda - House - Civic ---
+---
+layout: post
+status: publish
+published: true
+title: Site moved, I moved, bought car, etc
+date: '2007-08-26 13:29:28 +0200'
+categories:
+- Random
+tags:
+- Johannesburg
+- Honda
+- House
+- Civic
+---
 
 Sup.
 

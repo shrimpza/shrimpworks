@@ -1,11 +1,18 @@
---- layout: post status: publish published: true title: Monster Hunt
-still going strong author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 55 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=55 date: '2006-01-31
-08:13:40 +0200' date\_gmt: '2006-01-31 06:13:40 +0200' categories: -
-Gaming - Development tags: - Monster Hunt - UT - Mods - Unreal ---
+---
+layout: post
+status: publish
+published: true
+title: Monster Hunt still going strong
+date: '2006-01-31 08:13:40 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- Monster Hunt
+- UT
+- Mods
+- Unreal
+---
 
 I was browsing around the [BeyondUnreal
 Forums](http://forums.beyondunreal.com/) the other day, and came across

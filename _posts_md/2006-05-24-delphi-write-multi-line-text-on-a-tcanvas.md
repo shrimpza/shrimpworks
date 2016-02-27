@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: 'Delphi: Write
-multi-line text on a TCanvas' author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 63
-wordpress\_url: http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=63
-date: '2006-05-24 08:06:01 +0200' date\_gmt: '2006-05-24 06:06:01 +0200'
-categories: - Development tags: - Delphi - Graphics - TCanvas ---
+---
+layout: post
+status: publish
+published: true
+title: 'Delphi: Write multi-line text on a TCanvas'
+date: '2006-05-24 08:06:01 +0200'
+categories:
+- Development
+tags:
+- Delphi
+- Graphics
+- TCanvas
+---
 
 I've had to do quite a bit of stuff with images in Delphi recently (lots
 of manual drawing too), and discovered TCanvas' TextOut method will only

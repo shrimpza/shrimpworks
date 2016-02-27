@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: ownCloud on
-Debian update from 5.0.8 to 5.0.9 author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 418
-wordpress\_url: http://shrimpworks.za.net/?p=418 date: '2013-07-22
-10:20:58 +0200' date\_gmt: '2013-07-22 08:20:58 +0200' categories: -
-Random tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: ownCloud on Debian update from 5.0.8 to 5.0.9
+date: '2013-07-22 10:20:58 +0200'
+categories:
+- Random
+tags: []
+---
 
 \*Update 1\* - one minor upgrade later, and they're back to the previous
 configuration in `/usr/share/owncloud`. Joy. Guess I'll give it up.

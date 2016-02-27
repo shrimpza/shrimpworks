@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: 'Introduction to
-Ant Part 1: A Basic Build' author: display\_name: Shrimp login: shrimp
-email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 800
-wordpress\_url: http://shrimpworks.za.net/?p=800 date: '2015-07-07
-21:01:04 +0200' date\_gmt: '2015-07-07 19:01:04 +0200' categories: -
-Development tags: - Tutorials - Java - Ant ---
+---
+layout: post
+status: publish
+published: true
+title: 'Introduction to Ant Part 1: A Basic Build'
+date: '2015-07-07 21:01:04 +0200'
+categories:
+- Development
+tags:
+- Tutorials
+- Java
+- Ant
+---
 
 ![](http://shrimpworks.za.net/wp-content/uploads/2015/07/101702-150x150.png){.alignleft
 width="200" height="200"}[Apache Ant](https://ant.apache.org/) is a

@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Excitment builds
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 77 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=77 date: '2006-09-28
-13:19:48 +0200' date\_gmt: '2006-09-28 11:19:48 +0200' categories: -
-Gaming tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Excitment builds
+date: '2006-09-28 13:19:48 +0200'
+categories:
+- Gaming
+tags: []
+---
 
 Well, despite around 10 years of pure PlayStation fanboyism, I've caved
 in and decided to get an XBox 360. With the South African launch

@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Explode and
-Implode for Delphi… author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 30 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=30 date: '2005-07-06
-13:57:32 +0200' date\_gmt: '2005-07-06 11:57:32 +0200' categories: -
-Development tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Explode and Implode for Delphi…
+date: '2005-07-06 13:57:32 +0200'
+categories:
+- Development
+tags: []
+---
 
 Since I'm bored at the moment, I might as well post some code :D
 

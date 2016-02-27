@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: 'Introduction to
-Ant Part 3: Dependency Management with Ivy' author: display\_name:
-Shrimp login: shrimp email: shrimp@shrimpworks.za.net url:
-http://shrimpworks.za.net/ author\_login: shrimp author\_email:
-shrimp@shrimpworks.za.net author\_url: http://shrimpworks.za.net/
-wordpress\_id: 829 wordpress\_url: http://shrimpworks.za.net/?p=829
-date: '2015-08-07 10:20:45 +0200' date\_gmt: '2015-08-07 08:20:45 +0200'
-categories: - Development tags: - Tutorials - Java - Ant ---
+---
+layout: post
+status: publish
+published: true
+title: 'Introduction to Ant Part 3: Dependency Management with Ivy'
+date: '2015-08-07 10:20:45 +0200'
+categories:
+- Development
+tags:
+- Tutorials
+- Java
+- Ant
+---
 
 ![](http://shrimpworks.za.net/wp-content/uploads/2015/08/102856-150x150.png){.alignleft
 width="200" height="200"} So far, we've covered the basics of [creating

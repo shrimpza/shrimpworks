@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: Are fansites
-really dead? author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 49 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=49 date: '2005-10-24
-22:12:57 +0200' date\_gmt: '2005-10-24 20:12:57 +0200' categories: -
-Gaming - Rants tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Are fansites really dead?
+date: '2005-10-24 22:12:57 +0200'
+categories:
+- Gaming
+- Rants
+tags: []
+---
 
 I just came across a post on Voodoo Extreme about the fact that IGN are
 offering [fansite

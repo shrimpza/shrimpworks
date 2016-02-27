@@ -1,11 +1,18 @@
---- layout: post status: publish published: true title: Revival redux
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 109 wordpress\_url:
-http://shrimpworks.za.net/?p=109 date: '2010-06-14 08:07:23 +0200'
-date\_gmt: '2010-06-14 06:07:23 +0200' categories: - Cars - Gallery
-tags: - photos - Type R - Honda - Club ---
+---
+layout: post
+status: publish
+published: true
+title: Revival redux
+date: '2010-06-14 08:07:23 +0200'
+categories:
+- Cars
+- Gallery
+tags:
+- photos
+- Type R
+- Honda
+- Club
+---
 
 Soooo, almost another 2 years since last posting. Lol. That's way worse
 than [mithrandi](http://mithrandi.net/blog/) used to be.

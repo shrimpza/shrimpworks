@@ -1,11 +1,18 @@
---- layout: post status: publish published: true title: Debian Powered
-Notebook author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 48 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=48 date: '2005-10-24
-00:06:33 +0200' date\_gmt: '2005-10-23 22:06:33 +0200' categories: -
-Linux - Work - Software tags: - Debian - Notebooks - Laptops ---
+---
+layout: post
+status: publish
+published: true
+title: Debian Powered Notebook
+date: '2005-10-24 00:06:33 +0200'
+categories:
+- Linux
+- Work
+- Software
+tags:
+- Debian
+- Notebooks
+- Laptops
+---
 
 Yay, on Friday, I decided to take the plunge, and install Debian on my
 laptop. I've always wanted to try working in a Linux desktop

@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: OpenOffice.org 2
-Beta author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 26 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=26 date: '2005-05-29
-20:39:54 +0200' date\_gmt: '2005-05-29 18:39:54 +0200' categories: -
-Software tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: OpenOffice.org 2 Beta
+date: '2005-05-29 20:39:54 +0200'
+categories:
+- Software
+tags: []
+---
 
 I haven't really seen a lot of news about the
 [OpenOffice.org](http://OpenOffice.org) 2 Beta release. It seems to me

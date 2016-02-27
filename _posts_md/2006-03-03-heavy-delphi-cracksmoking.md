@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Heavy Delphi
-cracksmoking author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 60 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=60 date: '2006-03-03
-17:32:28 +0200' date\_gmt: '2006-03-03 15:32:28 +0200' categories: -
-Development tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Heavy Delphi cracksmoking
+date: '2006-03-03 17:32:28 +0200'
+categories:
+- Development
+tags: []
+---
 
 As we all know, PNG images are so much cooler than BMP images.
 Especially with alpha channels.

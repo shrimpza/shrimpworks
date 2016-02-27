@@ -1,12 +1,18 @@
---- layout: post status: publish published: true title: Nice Image
-Browser (was Dumb Image Browser) author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 75
-wordpress\_url: http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=75
-date: '2006-09-21 22:46:44 +0200' date\_gmt: '2006-09-21 20:46:44 +0200'
-categories: - Development - Software tags: - gallery - images -
-thumbnails - photos ---
+---
+layout: post
+status: publish
+published: true
+title: Nice Image Browser (was Dumb Image Browser)
+date: '2006-09-21 22:46:44 +0200'
+categories:
+- Development
+- Software
+tags:
+- gallery
+- images
+- thumbnails
+- photos
+---
 
 After the release of the "[Dumb Image
 Browser](http://shrimpworks.za.net/2006/05/28/php-image-browser-and-download-stats/)",

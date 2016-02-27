@@ -1,12 +1,20 @@
---- layout: post status: publish published: true title: Hamachi, easy
-VPN author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 44 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=44 date: '2005-10-10
-17:34:12 +0200' date\_gmt: '2005-10-10 15:34:12 +0200' categories: -
-Gaming - Software tags: - VPN - Serious Sam 2 - networking - Hamachi -
-LAN - WAN ---
+---
+layout: post
+status: publish
+published: true
+title: Hamachi, easy VPN
+date: '2005-10-10 17:34:12 +0200'
+categories:
+- Gaming
+- Software
+tags:
+- VPN
+- Serious Sam 2
+- networking
+- Hamachi
+- LAN
+- WAN
+---
 
 A few weeks ago, the Serious Sam 2 demo was release, and my clan, the
 [Avatars](http://www.avatars.co.za/), and I were dying to try out the

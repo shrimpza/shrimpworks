@@ -1,12 +1,20 @@
---- layout: post status: publish published: true title: PyODE physics in
-PyOgre example author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 61 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=61 date: '2006-03-21
-13:17:15 +0200' date\_gmt: '2006-03-21 11:17:15 +0200' categories: -
-Gaming - Development tags: - python - Physics - Ogre - PyOgre - ODE -
-PyODE ---
+---
+layout: post
+status: publish
+published: true
+title: PyODE physics in PyOgre example
+date: '2006-03-21 13:17:15 +0200'
+categories:
+- Gaming
+- Development
+tags:
+- python
+- Physics
+- Ogre
+- PyOgre
+- ODE
+- PyODE
+---
 
 Guess it shouldn't have taken so long for me to get around to doing
 this, but at least it's done now.

@@ -1,11 +1,17 @@
---- layout: post status: publish published: true title: Change your
-console resolution and colour depth author: display\_name: Shrimp login:
-shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 18
-wordpress\_url: http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=18
-date: '2005-01-31 20:22:42 +0200' date\_gmt: '2005-01-31 18:22:42 +0200'
-categories: - Linux tags: - Linux - Console - Colours - Terminal ---
+---
+layout: post
+status: publish
+published: true
+title: Change your console resolution and colour depth
+date: '2005-01-31 20:22:42 +0200'
+categories:
+- Linux
+tags:
+- Linux
+- Console
+- Colours
+- Terminal
+---
 
 OK so not much is going on... Thought I might as well pass along some
 general knowledge.

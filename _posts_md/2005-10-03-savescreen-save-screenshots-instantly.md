@@ -1,12 +1,18 @@
---- layout: post status: publish published: true title: SaveScreen -
-save screenshots instantly! author: display\_name: Shrimp login: shrimp
-email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
-author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
-author\_url: http://shrimpworks.za.net/ wordpress\_id: 43
-wordpress\_url: http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=43
-date: '2005-10-03 17:01:11 +0200' date\_gmt: '2005-10-03 15:01:11 +0200'
-categories: - Gaming - Development - Software tags: - Battlefield 2 -
-Screenshot - screen capture ---
+---
+layout: post
+status: publish
+published: true
+title: SaveScreen - save screenshots instantly!
+date: '2005-10-03 17:01:11 +0200'
+categories:
+- Gaming
+- Development
+- Software
+tags:
+- Battlefield 2
+- Screenshot
+- screen capture
+---
 
 Ever since installing BattleField 2, I've had a problem with taking
 screenshots. Basically, the game completely freezes up when I press

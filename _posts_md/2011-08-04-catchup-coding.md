@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: 'Catchup:
-Coding' author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 178 wordpress\_url:
-http://shrimpworks.za.net/?p=178 date: '2011-08-04 14:11:55 +0200'
-date\_gmt: '2011-08-04 12:11:55 +0200' categories: - Development tags: -
-PHP - Eve Online - Out of Eve ---
+---
+layout: post
+status: publish
+published: true
+title: 'Catchup: Coding'
+date: '2011-08-04 14:11:55 +0200'
+categories:
+- Development
+tags:
+- PHP
+- Eve Online
+- Out of Eve
+---
 
 Things have been very quiet on the code front lately, with bursts of
 activity here and there.

@@ -1,11 +1,16 @@
---- layout: post status: publish published: true title: Simple HTTP
-Server in Java author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 524 wordpress\_url:
-http://shrimpworks.za.net/?p=524 date: '2013-12-17 21:28:42 +0200'
-date\_gmt: '2013-12-17 19:28:42 +0200' categories: - Development tags: -
-Java - HTTP - Service ---
+---
+layout: post
+status: publish
+published: true
+title: Simple HTTP Server in Java
+date: '2013-12-17 21:28:42 +0200'
+categories:
+- Development
+tags:
+- Java
+- HTTP
+- Service
+---
 
 Some thing I've been using for a while, and which recently became useful
 at work as well, is a simple HTTP service written in plain Java with

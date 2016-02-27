@@ -1,11 +1,19 @@
---- layout: post status: publish published: true title: HOCSA Track Day
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 126 wordpress\_url:
-http://shrimpworks.za.net/?p=126 date: '2010-06-30 20:48:17 +0200'
-date\_gmt: '2010-06-30 18:48:17 +0200' categories: - Cars - Gallery
-tags: - Type R - Racing - Zwartkops - Honda - Club ---
+---
+layout: post
+status: publish
+published: true
+title: HOCSA Track Day
+date: '2010-06-30 20:48:17 +0200'
+categories:
+- Cars
+- Gallery
+tags:
+- Type R
+- Racing
+- Zwartkops
+- Honda
+- Club
+---
 
 The [Honda Owner's Club of South Africa](http://www.hondaowners.co.za/)
 hosted a Bridgestone-sponsored track day at Zwartkops this last Sunday.

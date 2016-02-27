@@ -1,11 +1,13 @@
---- layout: post status: publish published: true title: Battlefield 2
-author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 28 wordpress\_url:
-http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=28 date: '2005-06-15
-20:43:30 +0200' date\_gmt: '2005-06-15 18:43:30 +0200' categories: -
-Gaming tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: Battlefield 2
+date: '2005-06-15 20:43:30 +0200'
+categories:
+- Gaming
+tags: []
+---
 
 MMMMMMMMM
 

@@ -1,11 +1,14 @@
---- layout: post status: publish published: true title: A New (Old)
-Thing author: display\_name: Shrimp login: shrimp email:
-shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/ author\_login:
-shrimp author\_email: shrimp@shrimpworks.za.net author\_url:
-http://shrimpworks.za.net/ wordpress\_id: 660 wordpress\_url:
-http://shrimpworks.za.net/?p=660 date: '2014-12-01 07:17:47 +0200'
-date\_gmt: '2014-12-01 05:17:47 +0200' categories: - Development -
-Software tags: \[\] ---
+---
+layout: post
+status: publish
+published: true
+title: A New (Old) Thing
+date: '2014-12-01 07:17:47 +0200'
+categories:
+- Development
+- Software
+tags: []
+---
 
 (Re-)Introducing [ZOMB, an IRC bot
 back-end](https://github.com/shrimpza/zomb), which I planned, started
