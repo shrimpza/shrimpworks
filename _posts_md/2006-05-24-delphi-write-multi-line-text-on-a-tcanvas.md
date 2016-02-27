@@ -1,0 +1,52 @@
+--- layout: post status: publish published: true title: 'Delphi: Write
+multi-line text on a TCanvas' author: display\_name: Shrimp login:
+shrimp email: shrimp@shrimpworks.za.net url: http://shrimpworks.za.net/
+author\_login: shrimp author\_email: shrimp@shrimpworks.za.net
+author\_url: http://shrimpworks.za.net/ wordpress\_id: 63
+wordpress\_url: http://malcolm.shrimpworks.za.net/\~shrimp/blog/?p=63
+date: '2006-05-24 08:06:01 +0200' date\_gmt: '2006-05-24 06:06:01 +0200'
+categories: - Development tags: - Delphi - Graphics - TCanvas ---
+
+I've had to do quite a bit of stuff with images in Delphi recently (lots
+of manual drawing too), and discovered TCanvas' TextOut method will only
+draw text onto one line, line breaks and newlines are ignored. Google
+search results suggested Windows' DrawText function, however dispite all
+the formatting and alignment flags it takes, it refused to draw text
+centred vertically.
+
+Anyway, here's a small-ish procedure which will take your multi-line
+text, and draw it centred on the canvas you pass it. You also need to
+pass the width and height of the canvas you're drawing to. It assumes
+the font can everything else has been set by you, prior to calling it.
+Also, be sure "Graphics" is in your "uses" section.
+
+``` {.prettyprint}
+procedure multilineCanvasText(canvas: TCanvas; text: String; width, height: Integer);
+var
+  textSize: TSize;
+  lines: TStringList;
+  i, blockHeight: Integer;
+begin
+  // lazy man's way of splitting text by line into a list (split by #13#10)
+  lines := TStringList.Create;
+  lines.Text := text;
+
+  // see how high our block of text is going to be, based on the font the canvas
+  // currently has set
+  textSize := canvas.TextExtent('LOZL!');
+  blockHeight := textSize.cy * lines.Count;
+  blockHeight := blockHeight;
+
+  // go through each line and output it
+  for i := 0 to lines.Count - 1 do
+  begin
+    // we need the width of each line, so we can center it on the canvas
+    textSize := canvas.TextExtent(lines[i]);
+    // render the text
+    canvas.TextOut((width div 2) - (textSize.cx div 2),
+                   (height div 2) - (blockHeight div 2) + (textSize.cy * i),
+                   lines[i]);
+  end;
+  freeAndNull(lines);
+end;
+```
