@@ -47,7 +47,24 @@ img {
     vertical-align: middle;
 }
 
+.image-center {
+  margin: 0 auto;
+  display: block;
+}
 
+.full-width {
+	width: 100%;
+}
+
+.image-left {
+	float: left; 
+	margin: 0 10px 10px 0;
+}
+
+.image-right {
+	float: right;
+	margin: 0 0 10px 10px;
+}
 
 /**
  * Figures

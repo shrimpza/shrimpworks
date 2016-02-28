@@ -11,12 +11,8 @@ tags:
 - Modifications
 ---
 
-[![image](http://shrimpworks.za.net/wp-content/uploads/2013/04/wpid-IMAG02531.jpg "IMAG0253.jpg"){.alignnone
-.size-full
-width="280"}](http://shrimpworks.za.net/wp-content/uploads/2013/04/wpid-IMAG02531.jpg)
-[![image](http://shrimpworks.za.net/wp-content/uploads/2013/04/wpid-IMAG02571.jpg "IMAG0257.jpg"){.alignnone
-.size-full
-width="280"}](http://shrimpworks.za.net/wp-content/uploads/2013/04/wpid-IMAG02571.jpg)
+![image](/assets/posts/2013-04-25-bonnet1.jpg)
+![image](/assets/posts/2013-04-25-bonnet2.jpg)
 
 My new carbon fibre bonnet arrived today, and was a snap to fit. It
 seriously is much lighter than the stock part, plus the vents earn me

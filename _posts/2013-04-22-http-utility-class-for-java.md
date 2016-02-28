@@ -21,4 +21,4 @@ seemed pretty useful and reliable in applications large and small, so
 maybe it's of some use to someone else as well.
 
 [Download
-HttpUtils](http://shrimpworks.za.net/wp-content/uploads/2013/04/HttpUtils.zip)
+HttpUtils](/assets/files/2013-04-HttpUtils.zip)

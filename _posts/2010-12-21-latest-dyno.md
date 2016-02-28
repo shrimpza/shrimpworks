@@ -11,9 +11,7 @@ tags:
 - Dyno
 ---
 
-[![](http://shrimpworks.za.net/wp-content/uploads/2010/12/WRC_Dyno_20101211-212x300.jpg "WRC_Dyno_20101211"){.alignright
-.size-medium .wp-image-148 width="136"
-height="192"}](http://shrimpworks.za.net/wp-content/uploads/2010/12/WRC_Dyno_20101211.jpg)
+[![](/assets/posts/2010-12-21-dyno_t.jpg){: .image-left}](/assets/posts/2010-12-21-dyno.jpg)
 Attended a dyno day at [WRC Tuning](http://www.wrctuning.co.za/) on the
 5th. Was the first opportunity I've had to compare my car to other FN2s
 at the same time under the same conditions, and I'm rather impressed :)

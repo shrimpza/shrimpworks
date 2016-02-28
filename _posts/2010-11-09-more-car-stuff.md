@@ -18,11 +18,9 @@ Yup, I [installed more
 bits](http://hondaclub.freeforums.org/shrimp-s-na-fn2-upgrades-t186.html)
 :). See the link for full details.
 
-\[caption id="" align="alignnone" width="520" caption="My engine bay now
-looks like
-this."\][![](http://imgur.com/2kDo4l.jpg "New engine bay"){width="520"}](http://imgur.com/2kDo4.jpg)\[/caption\]
+![](/assets/posts/2010-11-09-engine.jpg "New engine bay")
 
 I also bought myself a small camera for recording laps. Here's my fairly
 boring first recording:
 
-
+{% youtube ORR7It9EK0c %}
