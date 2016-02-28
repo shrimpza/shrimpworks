@@ -10,9 +10,7 @@ categories:
 tags: []
 ---
 
-[![zomb-web](http://shrimpworks.za.net/wp-content/uploads/2014/12/zomb-web-1024x537.png){.aligncenter
-.size-large .wp-image-674 width="560"
-height="293"}](http://shrimpworks.za.net/wp-content/uploads/2014/12/zomb-web.png)
+[![zomb-web](/assets/posts/2014-12-14-zomb-web_t.png){: .image-center .full-width}](/assets/posts/2014-12-14-zomb-web.png)
 
 As mentioned, [I've resurrected an old
 idea](http://shrimpworks.za.net/2014/12/01/a-new-old-thing/ "A New (Old) Thing"),
@@ -26,7 +24,8 @@ needs to store things anyway).
 
 Some stuff learned along the way:
 
-**API-driven development:**\
+**API-driven development:**
+
 Designing the external-facing API (actually defining and completely
 documenting the exact request and response data structures, not just
 "there will be a request that does things and a response that looks
@@ -36,13 +35,15 @@ line of code, and allows you to easily spot gaps and shortcomings. Once
 done, the "user documentation" becomes the same documentation I used to
 implement the back-end, which made it incredibly easy.
 
-**Git:**\
+**Git:**
+
 Still learning, getting more comfortable with it. IntelliJ IDEA has
 excellent built-in Git support out-the-box, and although painful to use
 in a Windows shell (it's basically Bash, inside cmd.exe), I'm getting
 more used to the Git CLI.
 
-**Free/online continuous integration:**\
+**Free/online continuous integration:**
+
 Initially, I started off using [Travis-CI](https://travis-ci.org/). This
 requires you to store a ".travis.yml" file within the root of your Git
 repository which I was rather uncomfortable with (I don't like
@@ -54,7 +55,8 @@ ability to store artefacts for download, or publish your artefacts to
 external services or servers - so you could have successful builds
 automatically deploy the latest binaries.
 
-**Persistence/Storage:**\
+**Persistence/Storage:**
+
 Persistence is hard, so once you start a service up, it should run
 indefinitely so you never need to write anything to disk. Sigh. Also,
 this part was not designed at all up-front, and my flailing around
@@ -63,11 +65,13 @@ design and planning before jumping in with code.
 
 Aside from that, there are additional projects which were spawned:
 
-**[zomb-web](https://github.com/shrimpza/zomb-web)**\
+**[zomb-web](https://github.com/shrimpza/zomb-web)**
+
 The first front-end for ZOMB. A simple single-page HTML UI. Had some
 good practice remembering how to HTML and Javascript here...
 
-**[zomb-plugins](https://github.com/shrimpza/zomb-plugins)**\
+**[zomb-plugins](https://github.com/shrimpza/zomb-plugins)**
+
 A growing collection of plugins for ZOMB. At present, they're all PHP
 (again, refreshing old skills...) and pretty simple. Currently, there's
 *time* (simple current time/time-zone conversion), *lastfm* (see what

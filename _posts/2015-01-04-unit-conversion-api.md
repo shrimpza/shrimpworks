@@ -30,7 +30,7 @@ wheel (again, refer to documentation linked above for usage):
 - <http://tools.shrimpworks.za.net/units-api/convert.php>
 
 As an aside, this project served as my first introduction to
-[PHPUnit](http://phpunit.de/)for PHP unit testing, and CI is once again
+[PHPUnit](http://phpunit.de/) for PHP unit testing, and CI is once again
 provided by [Drone.io](https://drone.io/github.com/shrimpza/units-api)
 which has performed admirably. Design-wise, it was another exercise in
 defining the public-facing API before a line of code was written, which

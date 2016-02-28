@@ -12,8 +12,7 @@ tags:
 - Ant
 ---
 
-![](http://shrimpworks.za.net/wp-content/uploads/2015/07/101702-150x150.png){.alignleft
-width="200" height="200"}[Apache Ant](https://ant.apache.org/) is a
+![](/assets/posts/2015-07-07-ant.png){: .image-left}[Apache Ant](https://ant.apache.org/) is a
 general-purpose build tool, primarily used for the building of Java
 applications, but it is flexible enough to be used for various tasks.
 
@@ -42,7 +41,7 @@ The source for this project can be [found in
 GitHub](https://github.com/shrimpza/ant-tutorial/tree/master/part01).
 Here's the breakdown of everything going on in this project:
 
-[](){#more}[](){#more-800}
+<!--more-->
 
 At the root of the project, we have the `src` directory, under which all
 our packages live. Normally, an IDE will take care of this sort of
@@ -53,7 +52,9 @@ you'll find the `build.xml` file - this is our Ant build configuration.
 Digging into the various parts of the Ant file, starting at the top and
 working our way down:
 
-``` {.prettyprint}
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hello-world" default="dist" basedir=".">
 ```
 
 First is a standard XML version and encoding declaration - Ant won't
@@ -72,11 +73,11 @@ The `default` attribute indicates the default
 be run when you execute `ant` with no target specified. Targets are
 defined in `<target ...>` blocks, which we'll see later.
 
-``` {.prettyprint}
-    
-    
-    
-    
+```xml
+    <!-- basic paths -->
+    <property name="src.dir" location="src"/>
+    <property name="dist.dir" location="dist"/>
+    <property name="build.dir" location="build"/>
 ```
 
 Here we're defining a couple of path
@@ -91,13 +92,13 @@ In particular, we're defining the source code path (`.java` files), as
 well as output paths for the compiled `.class` files and our
 redistributable artefacts.
 
-``` {.prettyprint}
-    
-    
+```xml
+    <!-- properties for build output, nothing should need to change beyond this point -->
+    <property name="build.src.dir" location="${build.dir}/src"/>
 
-    
-        
-    
+    <path id="default.classpath">
+        <pathelement path="${build.src.dir}"/>
+    </path>
 ```
 
 These are properties building on the more commonly defined ones in the
@@ -107,15 +108,15 @@ path](https://ant.apache.org/manual/using.html#path), which will be used
 for when we actually call `javac` to compile our code, so it knows where
 everything is.
 
-``` {.prettyprint}
-    
-    
-        
+```xml
+    <!-- Simple source build -->
+    <target name="build" description="compile source">
+        <mkdir dir="${build.src.dir}"/>
 
-        
-            
-        
-    
+        <javac srcdir="${src.dir}" destdir="${build.src.dir}" includeantruntime="false">
+            <classpath refid="default.classpath"/>
+        </javac>
+    </target>
 ```
 
 Now we're finally getting to a build target. A target is typically one
@@ -156,16 +157,16 @@ investigate the additional properties and attributes the [javac
 task](https://ant.apache.org/manual/Tasks/javac.html) makes available --
 there are many.
 
-``` {.prettyprint}
-    
-    
-        
+```xml
+    <!-- Build distribution -->
+    <target name="dist" depends="build" description="generate distribution">
+        <mkdir dir="${dist.dir}"/>
 
-        
-            
-            
-        
-    
+        <jar jarfile="${dist.dir}/${ant.project.name}.jar">
+            <fileset dir="${build.src.dir}"/>
+            <fileset dir="${src.dir}" excludes="**/*.java"/>
+        </jar>
+    </target>
 ```
 
 At last, and probably the most commonly used target, `dist`. This is
@@ -212,12 +213,12 @@ That's all. After this target executes, your `build` directory will
 contain a bunch of compiled `.class` files, and you'll have a
 distributable `.jar` file in the `dist` directory.
 
-``` {.prettyprint}
-    
-    
-        
-        
-    
+```xml
+    <!-- Clean compiled files -->
+    <target name="clean" description="clean up" >
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
 ```
 
 It is generally a good idea to include a `clean` operation in build
@@ -239,13 +240,13 @@ stand-alone applications.
 
 In the next part, we'll see how our application can be made runnable.
 
-------------------------------------------------------------------------
+---
 
 Other parts in this series:
 
-[Part 2: A Runnable Jar
-File](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)\
-[Part 3: Dependency Management with
-Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)\
-[Part 4: Unit Tests with
+- [Part 2: A Runnable Jar
+File](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)
+- [Part 3: Dependency Management with
+Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)
+- [Part 4: Unit Tests with
 JUnit](http://shrimpworks.za.net/2015/09/18/introduction-to-ant-part-4-unit-tests-with-junit/)

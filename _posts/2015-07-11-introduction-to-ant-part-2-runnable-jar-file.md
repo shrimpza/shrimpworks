@@ -12,8 +12,7 @@ tags:
 - Ant
 ---
 
-![](http://shrimpworks.za.net/wp-content/uploads/2015/07/101764-150x150.png){.alignleft
-width="200" height="200"}In part 1, we went over the basics of [using
+![](/assets/posts/2015-07-11-ant.png){: .image-left}In part 1, we went over the basics of [using
 Ant to create a redistributable `.jar`
 file](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/),
 suitable for use as a library in other projects. A lot of the time
@@ -29,11 +28,11 @@ one](https://github.com/shrimpza/ant-tutorial/commit/7425d635cfc68444e1abbc4b16d
 Here's a quick explanation of what we've done to achieve an executable
 jar file:
 
-[](){#more}[](){#more-816}
+<!--more-->
 
-``` {.prettyprint}
-    
-    
+```xml
+    <!-- for a runnable jar file, add the main class name -->
+    <property name="main.class" value="net.shrimpworks.ant.Main"/>
 ```
 
 Along with other common properties which may change from
@@ -44,13 +43,13 @@ top. This is simply the full class name of the class which holds your
 When making non-runnable library projects, this may be left blank in the
 future.
 
-``` {.prettyprint}
-        
-            
-                
-            
+```xml
+        <jar ...>
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+            </manifest>
             ....
-        
+        </jar>
 ```
 
 Here, we're telling the Ant [jar
@@ -68,13 +67,13 @@ follows:
 
 `$ java -jar dist/hello-world.jar`
 
-------------------------------------------------------------------------
+---
 
 Other parts in this series:
 
-[Part 1: A Basic
-Build](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)\
-[Part 3: Dependency Management with
-Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)\
-[Part 4: Unit Tests with
+- [Part 1: A Basic
+Build](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)
+- [Part 3: Dependency Management with
+Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)
+- [Part 4: Unit Tests with
 JUnit](http://shrimpworks.za.net/2015/09/18/introduction-to-ant-part-4-unit-tests-with-junit/)

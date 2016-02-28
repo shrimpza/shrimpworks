@@ -20,7 +20,7 @@ existing JRE functionality, using an
 Here's a simple "main()" which sets up two basic "pages", a root (/) and
 one which echoes your browser's request headers (/headers/).
 
-``` {.prettyprint}
+```java
 public class SimpleHTTPService {
 
     public static void main(String[] args) throws IOException {

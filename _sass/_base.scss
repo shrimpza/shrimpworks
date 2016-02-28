@@ -57,11 +57,13 @@ img {
 }
 
 .image-left {
+    clear: both;
 	float: left; 
 	margin: 0 10px 10px 0;
 }
 
 .image-right {
+    clear: both;
 	float: right;
 	margin: 0 0 10px 10px;
 }

@@ -12,8 +12,7 @@ tags:
 - Ant
 ---
 
-![](http://shrimpworks.za.net/wp-content/uploads/2015/08/102856-150x150.png){.alignleft
-width="200" height="200"} So far, we've covered the basics of [creating
+![](/assets/posts/2015-08-07-ant.png){: .image-left}So far, we've covered the basics of [creating
 a re-distributable `.jar`
 package](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)
 suitable for use as a library, and [building a Jar file which can be
@@ -40,7 +39,7 @@ So, let's integrate [Apache Ivy](https://ant.apache.org/ivy/) into our
 Ant script as we left it in [part
 2](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/).
 
-[](){#more}[](){#more-829}
+<!--more-->
 
 For starters, the [code for this part is available in
 GitHub](https://github.com/shrimpza/ant-tutorial/tree/master/part03)
@@ -67,13 +66,14 @@ Let's go through the changes to our `build.xml` file since part 2:
 
 **build.xml changes:**
 
-``` {.prettyprint}
+```xml
+<project name="hello-world" default="dist" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
 ```
 
 Start by adding the `ivy` XML namespace.
 
-``` {.prettyprint}
-    
+```xml
+    <property name="lib.dir" location="lib"/>
 ```
 
 Since we're going to be incorporating additional libraries into our
@@ -81,11 +81,11 @@ project, this is a new configuration option which we'll use to point to
 where we want them stored. This will map to the `project-root/lib`
 directory.
 
-``` {.prettyprint}
-    
-        
-        
-    
+```xml
+    <path id="default.classpath">
+        <fileset dir="${lib.dir}" includes="default/*.jar"/>
+        <pathelement path="${build.src.dir}"/>
+    </path>
 ```
 
 Again, since we're incorporating additional libraries, the new `lib`
@@ -96,10 +96,10 @@ pointing out the location of the "default" dependencies (more on what
 "default" refers to later - see the explanation on the addition of the
 `ivy.xml` file), and is including all `.jar` packages in that location.
 
-``` {.prettyprint}
-    
-        
-    
+```xml
+    <path id="dist.classpath">
+        <fileset dir="${dist.dir}" includes="lib/*.jar"/>
+    </path>
 ```
 
 Defining another new class-path. As you'll see later on in the updated
@@ -107,12 +107,12 @@ Defining another new class-path. As you'll see later on in the updated
 manifest file (the manifest includes a list of all packages and paths to
 include in the class-path).
 
-``` {.prettyprint}
-    
-    
-    
-    
-    
+```xml
+    <!-- Ivy configuration -->
+    <property name="ivy.install.version" value="2.4.0" />
+    <property name="ivy.home" value="${user.home}/.ant" />
+    <property name="ivy.jar.dir" value="${ivy.home}/lib" />
+    <property name="ivy.jar.file" value="${ivy.jar.dir}/ivy.jar" />
 ```
 
 As the comment tag suggests, these are a couple of options used for
@@ -133,12 +133,13 @@ up from various properties, so it can be quite easily customised.
 Finally, `ivy.lib.dir` references the library directory, and is used as
 the root target directory for dependencies Ivy downloads.
 
-``` {.prettyprint}
-    
-    
-        
-        
-    
+```xml
+    <!-- Ivy download -->
+    <target name="ivy-download">
+        <mkdir dir="${ivy.jar.dir}"/>
+        <get src="http://repo2.maven.org/maven2/org/apache/ivy/ivy/${ivy.install.version}/ivy-${ivy.install.version}.jar" 
+             dest="${ivy.jar.file}" usetimestamp="true"/>
+    </target>
 ```
 
 Now that everything is set up and ready, Ivy itself can be downloaded.
@@ -157,12 +158,13 @@ download location. The `usetimestamp` attribute of the `get` task will
 skip re-downloading the library on every build if it hasn't been
 modified on the remote server.
 
-``` {.prettyprint}
-    
-    
-        
-        
-    
+```xml
+    <!-- Ivy initialisation -->
+    <target name="ivy-init" depends="ivy-download">
+        <path id="ivy.lib.path" path="${ivy.jar.file}"/>
+        <taskdef resource="org/apache/ivy/ant/antlib.xml"
+                 uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
+    </target>
 ```
 
 Again, a small target dedicated to a single function. This time, we need
@@ -171,11 +173,11 @@ the [taskdef task](https://ant.apache.org/manual/Tasks/taskdef.html).
 Another `path` is defined here as well, used to inform Ant where it may
 find the task that is being defined.
 
-``` {.prettyprint}
-    
-    
-        
-    
+```xml
+    <!-- Ivy dependency resolution -->
+    <target name="ivy-resolve" depends="ivy-init" description="retrieve dependencies with ivy">
+        <ivy:retrieve pattern="${lib.dir}/[conf]/[artifact]-[revision](-[classifier]).[ext]" />
+    </target>
 ```
 
 At last, we can use Ivy to download some dependencies! The `pattern`
@@ -194,9 +196,9 @@ The end result of the `retrieve` task should end up (assuming some
 dependencies have been defined) in a structure something like
 `project-root/lib/default/some_lib-1.0.jar`.
 
-``` {.prettyprint}
-    
-    
+```xml
+    <!-- Simple source build -->
+    <target name="build" depends="ivy-resolve" description="compile source">
 ```
 
 Change to the original `build` target, set to depend on the previously
@@ -215,31 +217,31 @@ turn depends on:
 
 `ivy-download` (download Ivy library itself) before anything else.
 
-``` {.prettyprint}
-    
-    
-        
+```xml
+    <!-- Build distribution -->
+    <target name="dist" depends="build" description="generate distribution">
+        <mkdir dir="${dist.dir}/lib"/>
 
-        
-            
-                
-                
-            
-        
+        <copy todir="${dist.dir}/lib">
+            <fileset dir="${lib.dir}/default" includes="*.jar" erroronmissingdir="false">
+                <exclude name="**/*-javadoc.jar"/>
+                <exclude name="**/*-sources.jar"/>
+            </fileset>
+        </copy>
 
-        
-            
-        
+        <manifestclasspath property="dist.manifest.classpath" jarfile="${dist.dir}/${ant.project.name}.jar">
+            <classpath refid="dist.classpath" />
+        </manifestclasspath>
 
-        
-            
-                
-                
-            
-            
-            
-        
-    
+        <jar jarfile="${dist.dir}/${ant.project.name}.jar">
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+                <attribute name="Class-Path" value="${dist.manifest.classpath}"/>
+            </manifest>
+            <fileset dir="${build.src.dir}" />
+            <zipfileset dir="${src.dir}" excludes="**/*.java"/>
+        </jar>
+    </target>
 ```
 
 Here's the whole revised `dist` target, which has grown substantially. A
@@ -263,8 +265,8 @@ of the `dist/lib` directory are included in the runtime class-path. This
 is referenced by a new `attribute` named `Class-Path` in the [`jar`
 task](https://ant.apache.org/manual/Tasks/jar.html)'s `manifest`.
 
-``` {.prettyprint}
-        
+```xml
+        <delete dir="${lib.dir}"/>
 ```
 
 Finally, since we created the `lib` directory as part of the build
@@ -281,19 +283,21 @@ pointing to a specific Ivy file (via the `file` attribute on the
 `resolve` task), Ivy will by default use a file named `ivy.xml`, which
 is what we're providing in this instance:
 
-``` {.prettyprint}
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.4">
+    <info organisation="net.shrimpworks" module="${ant.project.name}"/>
 
-    
+    <configurations>
+        <conf name="default" />
+    </configurations>
 
-    
-        
-    
-
-    
-        
-        
-        
-    
+    <dependencies>
+        <!-- project dependencies -->
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.7.12" conf="default" />
+        <dependency org="org.slf4j" name="slf4j-simple" rev="1.7.12" conf="default" />
+    </dependencies>
+</ivy-module>
 ```
 
 Let's run through the file briefly:
@@ -362,13 +366,13 @@ following some of the task and configuration elements I've linked
 throughout this document, there are many fun and interesting knobs and
 dials to play with.
 
-------------------------------------------------------------------------
+---
 
 Other parts in this series:
 
-[Part 1: A Basic
-Build](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)\
-[Part 2: Runnable Jar
-File](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)\
-[Part 4: Unit Tests with
+- [Part 1: A Basic
+Build](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)
+- [Part 2: Runnable Jar
+File](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)
+- [Part 4: Unit Tests with
 JUnit](http://shrimpworks.za.net/2015/09/18/introduction-to-ant-part-4-unit-tests-with-junit/)

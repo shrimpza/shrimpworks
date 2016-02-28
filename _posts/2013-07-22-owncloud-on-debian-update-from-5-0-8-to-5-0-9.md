@@ -9,10 +9,10 @@ categories:
 tags: []
 ---
 
-\*Update 1\* - one minor upgrade later, and they're back to the previous
+*Update 1* - one minor upgrade later, and they're back to the previous
 configuration in `/usr/share/owncloud`. Joy. Guess I'll give it up.
 
-\*Update 2\* - ok, so unfortunately I didn't give up, and wow 5.0.10 is
+*Update 2* - ok, so unfortunately I didn't give up, and wow 5.0.10 is
 back in `/var/www/`. Double-you tee eff.
 
 I've been trying out hosting my own ownCloud instance on one of my

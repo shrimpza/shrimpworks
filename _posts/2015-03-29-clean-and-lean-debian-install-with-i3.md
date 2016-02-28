@@ -11,7 +11,7 @@ categories:
 tags: []
 ---
 
-![](https://upload.wikimedia.org/wikipedia/commons/8/87/I3_window_manager_logo.png)
+![](https://upload.wikimedia.org/wikipedia/commons/8/87/I3_window_manager_logo.png){: .image-left}
 Recently, I've made the switch from KDE being my preferred Linux desktop
 environment/window manager, to [i3](http://i3wm.org/), a tiling window
 manager, for both my work and private development environments (my home
@@ -40,7 +40,7 @@ have.
 I'd also advocate using "aptitude" as an alternative to "apt-get" for
 all package installations, updates and removals.
 
-### The Basics
+## The Basics
 
 I always start off with a [Debian
 "netinst"](https://www.debian.org/CD/netinst/). Post-install, this
@@ -62,7 +62,7 @@ edit root's aptitude config:
 
     Aptitude::CmdLine::Visual-Preview "true";
 
-#### Upgrade to Unstable/Sid
+### Upgrade to Unstable/Sid
 
 Perhaps a bit reckless, but I've honestly never experienced any
 crippling issues running Debian Unstable ("sid"). You'll only need to
@@ -85,7 +85,7 @@ After saving the above changes, execute the following:
 The `dist-upgrade` step will upgrade all installed packages to
 whatever's newest in unstable.
 
-### Desktop Install
+## Desktop Install
 
 With the base system as up-to-date as it can be, it's time to install
 the desktop environment.
@@ -108,13 +108,13 @@ your preferred option:
 
     $ sudo update-alternatives --config x-terminal-emulator
 
-### Desktop Tweaks
+## Desktop Tweaks
 
 Before digging too deep into installing additional software, it's a good
 time to configure some additional options to make life a bit more
 pleasant.
 
-##### Look and Feel
+### Look and Feel
 
 In order to make sure your eyes are not offended by the default GTK
 theme which you may end up seeing a lot of, set up the GTK theme and
@@ -132,7 +132,7 @@ to *\~/i3/config*:
     new_window 1pixel
     new_float normal
 
-##### py3status
+### py3status
 
 Install `python-pip` via Aptitude, and then
 `$ sudo pip install py3status`. I use
@@ -144,7 +144,7 @@ documentation](http://i3wm.org/i3status/manpage.html) and do some
 tweaks, since a couple of the default entries here are likely not too
 useful.
 
-##### Wallpaper
+### Wallpaper
 
 Randomised (of fixed if preferred) wallpapers can easily be achieved by
 installing `feh` (which makes for a good i3-friendly picture viewer in
@@ -156,7 +156,7 @@ Incidentally, the [imgur wallpaper
 gallery](https://imgur.com/r/wallpaper) is a good place to find some
 wallpapers.
 
-##### File Management
+### File Management
 
 Sometimes a GUI file manager can be useful, and for this, a nice
 light-weight alternative to the bigger desktops' Nautilus and Dolphins
@@ -167,7 +167,7 @@ A nice companion application for (compressed) archive management is
 `unzip`, `unrar-free`, etc, depending on the files you commonly work
 with).
 
-### Conclusion
+## Conclusion
 
 The entire setup to this point should not have taken more than 1-2
 hours, depending on download speeds (really, most time is spent just

@@ -46,10 +46,7 @@ My solution is [Markdocs](https://github.com/shrimpza/markdocs) - a
 simple HTML and JavaScript application for organising individual
 Markdown documents as a documentation collection.
 
-[![Screen Shot 2015-05-02 at
-10.21.35](http://shrimpworks.za.net/wp-content/uploads/2015/05/Screen-Shot-2015-05-02-at-10.21.35-1024x661.png){.aligncenter
-.size-large .wp-image-768 width="560"
-height="361"}](http://shrimpworks.za.net/wp-content/uploads/2015/05/Screen-Shot-2015-05-02-at-10.21.35.png)
+[![](/assets/posts/2015-05-04-markdocs_t.png){: .image-center .full-width}](/assets/posts/2015-05-04-markdocs.png)
 
 See the README on the [Markdocs GitHub
 page](https://github.com/shrimpza/markdocs) for usage instructions.

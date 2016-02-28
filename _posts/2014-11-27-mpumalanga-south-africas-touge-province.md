@@ -37,8 +37,8 @@ were some amazing views, though, complimented by the odd troop of
 baboons along the side of the road (no, I did NOT get out to take
 photos).
 
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/1_IMG_20141125_091903686-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/1_IMG_20141125_091903686.jpg)
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/2_IMG_20141125_091913485-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/2_IMG_20141125_091913485.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/1_IMG_20141125_091903686_t.jpg)](/assets/posts/2014-11-27-mpumalanga/1_IMG_20141125_091903686.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/2_IMG_20141125_091913485_t.jpg)](/assets/posts/2014-11-27-mpumalanga/2_IMG_20141125_091913485.jpg)
 
 After Lydenburg comes the R37 and [Long Tom
 Pass](https://en.wikipedia.org/wiki/Long_Tom_Pass). I only really
@@ -48,8 +48,8 @@ downhill sections of sharp corners flowing corners were certainly
 highlights, but I was surprised to find the entire R37 to Nelspruit an
 extremely enjoyable drive, even with a fair amount of traffic.
 
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/2.9_IMG_20141126_101859257-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/2.9_IMG_20141126_101859257.jpg)
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/3_IMG_20141125_111206765-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/3_IMG_20141125_111206765.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/2.9_IMG_20141126_101859257_t.jpg)](/assets/posts/2014-11-27-mpumalanga/2.9_IMG_20141126_101859257.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/3_IMG_20141125_111206765_t.jpg)](/assets/posts/2014-11-27-mpumalanga/3_IMG_20141125_111206765.jpg)
 
 The following day, I was off to try my luck at taking a peek at Pinnacle
 Rock and God's Window. Back along the R37, bliss. Then off onto the R532
@@ -69,8 +69,8 @@ behold. In fact, it would be awesome of somehow an event like the
 [Knysna Hill Climb](http://www.speedfestival.co.za/) could be organised
 here, it would be a massive hit.
 
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/4_IMG_20141126_113738780_HDR-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/4_IMG_20141126_113738780_HDR.jpg)
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/4.1_IMG_20141126_113547597-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/4.1_IMG_20141126_113547597.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/4_IMG_20141126_113738780_HDR_t.jpg)](/assets/posts/2014-11-27-mpumalanga/4_IMG_20141126_113738780_HDR.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/4.1_IMG_20141126_113547597_t.jpg)](/assets/posts/2014-11-27-mpumalanga/4.1_IMG_20141126_113547597.jpg)
 
 While completely out of place compared to all other traffic in my
 JDM-inspired overly-loud rice-rocket, it felt right at home on these
@@ -86,8 +86,8 @@ side wind you up through the mountains, with the many crosses lining the
 roadside serving as better warning signs than any number of red and
 white chevrons.
 
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/5_IMG_20141125_111206765-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/5_IMG_20141125_111206765.jpg)
-[![](http://shrimpworks.za.net/wp-content/uploads/2014/11/6_IMG_20141125_111206765-300x168.jpg){width="300"}](http://shrimpworks.za.net/wp-content/uploads/2014/11/6_IMG_20141125_111206765.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/5_IMG_20141125_111206765_t.jpg)](/assets/posts/2014-11-27-mpumalanga/5_IMG_20141125_111206765.jpg)
+[![](/assets/posts/2014-11-27-mpumalanga/6_IMG_20141125_111206765_t.jpg)](/assets/posts/2014-11-27-mpumalanga/6_IMG_20141125_111206765.jpg)
 
 Eventually, you arrive in Graskop, pass through, realise you can't see
 more than 5 metres in front of the car and won't be seeing any

@@ -29,7 +29,7 @@ big you make them.
 -   1 tsp. vanilla
 -   2 cups unsweetened apple sauce
 -   1 banana, mashed
--   1/2 cup agave (alternative: \~100ml honey mixed with \~50ml hot
+-   1/2 cup agave (alternative: ~100ml honey mixed with ~50ml hot
     water to achieve similar consistency)
 -   5 cups rolled oats
 -   1/4 cup flaxseed meal (alternative: 1/2 cup wholewheat flour)
