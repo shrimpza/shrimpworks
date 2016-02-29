@@ -12,6 +12,7 @@ tags:
 - Tutorials
 - Linux
 - GIMP
+excerpt_separator: <!--more-->
 ---
 
 So, being stuck without access to Photoshop and my regular Windows PC

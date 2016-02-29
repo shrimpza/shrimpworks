@@ -15,9 +15,16 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://shrimpworks.za.net" # the base hostname & protocol for your site
 permalink: "/:year/:month/:day/:title/"
+excerpt_separator: ""
 
 github_username:  shrimpza
-highlighter: rouge
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+gems: [jekyll-paginate]
+
+# pagination
+paginate: 10
+paginate_path: "/page/:num"

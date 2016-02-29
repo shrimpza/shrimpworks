@@ -10,6 +10,7 @@ tags:
 - Tutorials
 - Java
 - Ant
+excerpt_separator: <!--more-->
 ---
 
 ![](/assets/posts/2015-07-07-ant.png){: .image-left}[Apache Ant](https://ant.apache.org/) is a

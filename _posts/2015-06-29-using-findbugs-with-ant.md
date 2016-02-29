@@ -7,6 +7,7 @@ date: '2015-06-29 19:23:53 +0200'
 categories:
 - Random
 tags: []
+excerpt_separator: <!--more-->
 ---
 
 ![](http://findbugs.sourceforge.net/buggy-sm.png){: .image-left} I've been meaning to

@@ -10,6 +10,7 @@ tags:
 - Tutorials
 - Java
 - Ant
+excerpt_separator: <!--more-->
 ---
 
 ![](/assets/posts/2015-09-18-ant.png){: .image-left}Now that we have [dependency management with

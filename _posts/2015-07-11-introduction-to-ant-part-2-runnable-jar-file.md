@@ -10,6 +10,7 @@ tags:
 - Tutorials
 - Java
 - Ant
+excerpt_separator: <!--more-->
 ---
 
 ![](/assets/posts/2015-07-11-ant.png){: .image-left}In part 1, we went over the basics of [using
