@@ -14,7 +14,7 @@ tags:
 
 ![](/assets/posts/2015-07-11-ant.png){: .image-left}In part 1, we went over the basics of [using
 Ant to create a redistributable `.jar`
-file](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/),
+file]({% post_url 2015-07-07-introduction-to-ant-part-1-a-basic-build %}),
 suitable for use as a library in other projects. A lot of the time
 however, you're probably going to want to be building things which can
 actually be *run* as regular Java applications.
@@ -72,8 +72,8 @@ follows:
 Other parts in this series:
 
 - [Part 1: A Basic
-Build](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)
+Build]({% post_url 2015-07-07-introduction-to-ant-part-1-a-basic-build %})
 - [Part 3: Dependency Management with
-Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)
+Ivy]({% post_url 2015-08-07-introduction-to-ant-part-3-dependency-management-with-ivy %})
 - [Part 4: Unit Tests with
-JUnit](http://shrimpworks.za.net/2015/09/18/introduction-to-ant-part-4-unit-tests-with-junit/)
+JUnit]({% post_url 2015-09-18-introduction-to-ant-part-4-unit-tests-with-junit %})

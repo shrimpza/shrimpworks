@@ -29,7 +29,7 @@ some work to be done there). I still haven't decided if I want to do
 this all again in Unreal Torunament 2007 or not :).
 
 Elsewhere, I've been playing around with
-[DynaBar](http://shrimpworks.za.net/2005/12/18/dynabar-dynamic-userbars/),
+[DynaBar]({% post_url 2005-12-18-dynabar-dynamic-userbars %}),
 and it's grown a **lot**. The plugin system has been tweaked to allow
 better customisation options from the developer side, as well as having
 options added to improve the user interaction side of things. There are

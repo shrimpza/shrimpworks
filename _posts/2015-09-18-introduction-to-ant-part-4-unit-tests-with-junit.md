@@ -13,7 +13,7 @@ tags:
 ---
 
 ![](/assets/posts/2015-09-18-ant.png){: .image-left}Now that we have [dependency management with
-Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)
+Ivy]({% post_url 2015-08-07-introduction-to-ant-part-3-dependency-management-with-ivy %})
 working along with everything else covered before, we've covered almost
 everything required to start building *real* projects with Ant.
 
@@ -90,7 +90,7 @@ neater to manage these dependencies separately.
 ```
 
 This looks nearly identical to [the `build` target defined back in part
-1](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/),
+1]({% post_url 2015-07-07-introduction-to-ant-part-1-a-basic-build %}),
 with some changes to the variables used - this time making reference to
 the test paths and properties.
 
@@ -206,8 +206,8 @@ $ ant test
 Other parts in this series:
 
 - [Part 1: A Basic
-Build](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)
+Build]({% post_url 2015-07-07-introduction-to-ant-part-1-a-basic-build %})
 - [Part 2: Runnable Jar
-File](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)
+File]({% post_url 2015-07-11-introduction-to-ant-part-2-runnable-jar-file %})
 - [Part 3: Dependency Management with
-Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)
+Ivy]({% post_url 2015-08-07-introduction-to-ant-part-3-dependency-management-with-ivy %})

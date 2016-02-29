@@ -18,7 +18,7 @@ Heh :D
 So I've started work on my own small RSS aggregator for some or other
 web project I may or may not actually complete. And no, it's nothing
 like
-[Gregarius](http://shrimpworks.za.net/2005/08/07/gregarius-rss-aggregator/),
+[Gregarius]({% post_url 2005-08-07-gregarius-rss-aggregator %}),
 it's more of an 'internal function' of a larger project.
 
 So anyway, after checking out the various RSS version specs and things,

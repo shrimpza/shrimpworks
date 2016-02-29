@@ -15,7 +15,7 @@ tags:
 ---
 
 After the release of the "[Dumb Image
-Browser](http://shrimpworks.za.net/2006/05/28/php-image-browser-and-download-stats/)",
+Browser]({% post_url 2006-05-28-php-image-browser-and-download-stats %})",
 (which worked/works very well for what it's supposed to do), I thought
 of prettying it up a bit, and adding some extra features.
 

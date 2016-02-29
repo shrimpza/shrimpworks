@@ -14,9 +14,9 @@ tags:
 
 ![](/assets/posts/2015-08-07-ant.png){: .image-left}So far, we've covered the basics of [creating
 a re-distributable `.jar`
-package](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)
+package]({% post_url 2015-07-07-introduction-to-ant-part-1-a-basic-build %})
 suitable for use as a library, and [building a Jar file which can be
-run](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)
+run]({% post_url 2015-07-11-introduction-to-ant-part-2-runnable-jar-file %})
 by a user or server process.
 
 A major part of any non-trivial application these days is the inclusion
@@ -37,7 +37,7 @@ management processes.
 
 So, let's integrate [Apache Ivy](https://ant.apache.org/ivy/) into our
 Ant script as we left it in [part
-2](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/).
+2]({% post_url 2015-07-11-introduction-to-ant-part-2-runnable-jar-file %}).
 
 <!--more-->
 
@@ -47,7 +47,7 @@ once again. I'll walk through the [diff of what's changed since part
 2](https://github.com/shrimpza/ant-tutorial/commit/848679fdb39786f07fc9053fbeef2957fd8e1a6b).
 
 As mentioned in my post on [FindBugs integration with
-Ant](http://shrimpworks.za.net/2015/06/29/using-findbugs-with-ant/), I'm
+Ant]({% post_url 2015-06-29-using-findbugs-with-ant %}), I'm
 a strong believer in the idea that a developer (or user) should be able
 to check out or download a project's code and be able to build and start
 working on the code with minimal time and effort investment. This is
@@ -371,8 +371,8 @@ dials to play with.
 Other parts in this series:
 
 - [Part 1: A Basic
-Build](http://shrimpworks.za.net/2015/07/07/introduction-to-ant-part-1-a-basic-build/)
+Build]({% post_url 2015-07-07-introduction-to-ant-part-1-a-basic-build %})
 - [Part 2: Runnable Jar
-File](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)
+File]({% post_url 2015-07-11-introduction-to-ant-part-2-runnable-jar-file %})
 - [Part 4: Unit Tests with
-JUnit](http://shrimpworks.za.net/2015/09/18/introduction-to-ant-part-4-unit-tests-with-junit/)
+JUnit]({% post_url 2015-09-18-introduction-to-ant-part-4-unit-tests-with-junit %})

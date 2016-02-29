@@ -62,7 +62,7 @@ their meanings, you can also grab lists of ranks, weapons, vehicles,
 etc.
 
 ***Update:** Also see: [Battlefield Stats in
-PHP](http://shrimpworks.za.net/2005/10/17/battlefield-2-stats-in-php/)*
+PHP]({% post_url 2005-10-17-battlefield-2-stats-in-php %})*
 
 **Updated:** Since this was written, some things changed with the stats
 system, and the GameSpy application requires you to pass a bunch of

@@ -42,4 +42,4 @@ with, not knowing quite where or how to begin, and there is no
 PyODE/PyOgre example code floating around to reference.
 
 *EDIT: Example using PyODE and PyOgre now available -
-<http://shrimpworks.za.net/2006/03/21/pyode-physics-in-pyogre-example/>*
+<{% post_url 2006-03-21-pyode-physics-in-pyogre-example %}>*

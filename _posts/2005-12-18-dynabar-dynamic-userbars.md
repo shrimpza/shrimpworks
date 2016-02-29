@@ -16,7 +16,7 @@ tags:
 ---
 
 ***Update**: [DynaBar 2 is
-available](http://shrimpworks.za.net/2006/08/07/dynabar-2-more-dynamic-userbars/),
+available]({% post_url 2006-08-07-dynabar-2-more-dynamic-userbars %}),
 the download link below is out of date.*
 
 Finally got around to making a proper release of something :).

@@ -16,7 +16,7 @@ tags:
 
 A long time ago, in a galaxy not far away, I created a very small
 application named
-[SaveScreen](http://shrimpworks.za.net/2005/10/03/savescreen-save-screenshots-instantly/).
+[SaveScreen]({% post_url 2005-10-03-savescreen-save-screenshots-instantly %}).
 Today I'm rather pleased to release a much-improved [SaveScreen
 2](/projects/savescreen/).
 

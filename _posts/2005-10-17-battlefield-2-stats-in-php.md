@@ -14,7 +14,7 @@ tags:
 ---
 
 I've had a couple of questions regarding my [Battlefile 2 Stats in
-Python](http://shrimpworks.za.net/2005/09/12/battlefield-2-stats-in-python/)
+Python]({% post_url 2005-09-12-battlefield-2-stats-in-python %})
 post, and how it may be possible to do the same in PHP, so I thought I'd
 add an update for that.
 

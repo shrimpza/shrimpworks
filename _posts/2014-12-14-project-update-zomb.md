@@ -13,7 +13,7 @@ tags: []
 [![zomb-web](/assets/posts/2014-12-14-zomb-web_t.png){: .image-center .full-width}](/assets/posts/2014-12-14-zomb-web.png)
 
 As mentioned, [I've resurrected an old
-idea](http://shrimpworks.za.net/2014/12/01/a-new-old-thing/ "A New (Old) Thing"),
+idea]({% post_url 2014-12-01-a-new-old-thing %} "A New (Old) Thing"),
 and began work on it as a bit of a learning/practice exercise. I think
 it's working out rather well.
 

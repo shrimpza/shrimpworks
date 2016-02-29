@@ -245,8 +245,8 @@ In the next part, we'll see how our application can be made runnable.
 Other parts in this series:
 
 - [Part 2: A Runnable Jar
-File](http://shrimpworks.za.net/2015/07/11/introduction-to-ant-part-2-runnable-jar-file/)
+File]({% post_url 2015-07-11-introduction-to-ant-part-2-runnable-jar-file %})
 - [Part 3: Dependency Management with
-Ivy](http://shrimpworks.za.net/2015/08/07/introduction-to-ant-part-3-dependency-management-with-ivy/)
+Ivy]({% post_url 2015-08-07-introduction-to-ant-part-3-dependency-management-with-ivy %})
 - [Part 4: Unit Tests with
-JUnit](http://shrimpworks.za.net/2015/09/18/introduction-to-ant-part-4-unit-tests-with-junit/)
+JUnit]({% post_url 2015-09-18-introduction-to-ant-part-4-unit-tests-with-junit %})
