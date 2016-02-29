@@ -24,4 +24,4 @@ creating a mod.
 
 You'll find the file at the end of this post... Have fun :)
 
-[MonsterHuntSource.zip](http://shrimpworks.za.net/wp-content/uploads/2006/02/MonsterHuntSource1.zip)
+[MonsterHuntSource.zip](/assets/files/2006-02-MonsterHuntSource.zip)
