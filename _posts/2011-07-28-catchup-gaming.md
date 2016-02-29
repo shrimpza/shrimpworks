@@ -11,7 +11,7 @@ tags:
 - Team Fortress 2
 ---
 
-![](http://shrimpworks.za.net/wp-content/uploads/2011/07/tf2.jpg){: .image-center .full-width}
+![](/assets/posts/2011-07-28-tf2.jpg){: .image-center .full-width}
 
 I really have to use this thing more often than once or twice a year :D.
 I'm just going to do a few posts on a couple of subjects just for
