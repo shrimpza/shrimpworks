@@ -1,0 +1,16 @@
+.gallery ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.gallery ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 0.25em;
+    vertical-align: top;
+}
+
+.gallery-link {
+	display: block;
+}

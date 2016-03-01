@@ -23,8 +23,21 @@ github_username:  shrimpza
 markdown: kramdown
 highlighter: rouge
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, mini_magick]
 
 # pagination
 paginate: 10
 paginate_path: "/page/:num"
+
+gallerytag:
+  magick_lib: mini
+  source_dir: assets/gallery
+  destination_dir: assets/gallery/thumbs
+  thumb_width: 200
+  thumb_height: 200
+  columns: 0
+
+collections:
+  gallery:
+    output: true
+    permalink: /gallery/:title/
