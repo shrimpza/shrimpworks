@@ -25,10 +25,20 @@ highlighter: rouge
 
 gems: [jekyll-paginate, mini_magick]
 
-# pagination
+# blog entry pagination
 paginate: 10
 paginate_path: "/page/:num"
 
+# Page collections
+collections:
+  gallery:
+    output: true
+    permalink: /gallery/:title/
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Gallery configuration
 gallerytag:
   magick_lib: mini
   source_dir: assets/gallery
@@ -36,8 +46,3 @@ gallerytag:
   thumb_width: 200
   thumb_height: 200
   columns: 0
-
-collections:
-  gallery:
-    output: true
-    permalink: /gallery/:title/
