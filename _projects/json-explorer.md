@@ -13,7 +13,7 @@ various properties, types and values shown in a "property editor" type
 view. The source string for each element within the tree structure is
 also shown, neatly formatted for readability.
 
-[![JSON Explorer](/assets/projects/jsonex_t.png){: .image-center}](/assets/projects/jsonex.png)
+[![JSON Explorer](/assets/projects/json-explorer/jsonex_t.png){: .image-center}](/assets/projects/json-explorer/jsonex.png)
 
 Features
 --------
@@ -25,4 +25,4 @@ Features
 Download
 --------
 
-[Download JSON Explorer.](/assets/files/2008-09-jsonexplorer.zip)
+[Download JSON Explorer.](/assets/projects/json-explorer/jsonexplorer.zip)

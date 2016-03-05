@@ -102,7 +102,7 @@ created here from forum signatures or similar. Thanks.
 Download
 --------
 
-[Download DynaBar 2.](/assets/files/2013-04-dynabar2.zip)
+[Download DynaBar 2.](/assets/projects/dynabar/dynabar2.zip)
 
 See the included README in the "docs" directory for additional
 installation and usage information.

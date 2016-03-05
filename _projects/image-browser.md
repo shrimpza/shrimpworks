@@ -11,7 +11,7 @@ require databases, thumbnail caches, detailed setup procedures, or other
 stuff you may be used to when dealing with web-based image galleries.
 
 [![Nice Image
-Browser](/assets/projects/image-browser_t.png){: .image-center}](/assets/projects/image-browser.png "Nice Image Browser")
+Browser](/assets/projects/image-browser/image-browser_t.png){: .image-center}](/assets/projects/image-browser/image-browser.png "Nice Image Browser")
 
 Features
 --------
@@ -33,7 +33,7 @@ Download
 --------
 
 [Download Nice Image
-Browser](/assets/files/2006-09-nib.zip)
+Browser](/assets/projects/image-browser/nib.zip)
 
 See the included ReadMe.txt for additional installation and usage
 information.

@@ -24,4 +24,4 @@ creating a mod.
 
 You'll find the file at the end of this post... Have fun :)
 
-[MonsterHuntSource.zip](/assets/files/2006-02-MonsterHuntSource.zip)
+[MonsterHuntSource.zip](/assets/projects/monster-hunt/MonsterHuntSource.zip)
