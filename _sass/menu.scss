@@ -3,41 +3,57 @@ nav ul, nav ol, nav li { /* reset */
     padding:0;
 }
 
+nav .down-arrow {
+    font-size: 0.5em;
+    vertical-align: top;
+    color: $grey-color-light;
+}
+
 nav ul {
     list-style: none;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     float: left; /* Clear floats */
     width: 100%;
+    line-height: $base-line-height;
+    background: $grey-color-dark;
+
+    border-bottom: $menu-border-radius solid $grey-color-dark;
+    border-radius: 0px 0px $menu-border-radius $menu-border-radius;
 }
 
 nav ul li {
     float: left;
-    margin-right: 10px;
     position: relative;
+    border-left: 1px solid darken($grey-color, 15%);
 }
 
 nav ul a {
     display: block;
-    padding: 5px;
-    color: #fff;
-    background: #333;
+    padding: 10px;
+    color: $background-color;
     text-decoration: none;
 }
 
 nav ul a:hover {
-    color: #fff;
-    background: #6b0c36;
-    text-decoration: underline;
+    color: $background-color;
+    background: $brand-color;
+    text-decoration: none;
+}
+
+nav ul a:visited {
+    color: $background-color;
 }
 
 /*--- DROPDOWN ---*/
 nav ul ul {
-    background: #fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
-    background: rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+    background: $grey-color-dark;
     list-style: none;
     position: absolute;
     left: -9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+    float: none;
+    width: inherit;
+    font-weight: normal;
 }
 
 nav ul ul li {
@@ -54,14 +70,15 @@ nav ul li:hover ul { /* Display the dropdown on hover */
 }
 
 nav ul li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-    background: #6b0c36;
-    text-decoration: underline;
+    text-decoration: none;
+    background: $brand-color;
 }
 
 nav ul li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
     text-decoration: none;
+    background: $grey-color-dark;
 }
 
 nav ul li:hover ul li a:hover { /* Here we define the most explicit hover states--what happens when you hover each individual link. */
-    background: #333;
+    background: $brand-color;
 }

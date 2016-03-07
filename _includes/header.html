@@ -20,7 +20,7 @@
           {% for collection in site.collections %}
             {% if collection.label != "posts" %}
             <li>
-              <a href="#">{{ collection.label | capitalize }}</a>
+              <a href="#">{{ collection.label | capitalize }} <span class="down-arrow">▼</span></a>
               <ul>
                 {% for doc in collection.docs %}
                   <li><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></li>
@@ -32,7 +32,7 @@
 
           {% if site.pages.length > 0 %}
             <li>
-              <a href="#">Other Pages</a>
+              <a href="#">Other Pages <span class="down-arrow">▼</span></a>
               <ul>
                 {% for my_page in site.pages %}
                   {% if my_page.title %}
