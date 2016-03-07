@@ -15,7 +15,7 @@ nav ul {
     margin-bottom: 1em;
     float: left; /* Clear floats */
     width: 100%;
-    line-height: $base-line-height;
+    line-height: 1em;
     background: $grey-color-dark;
 
     border-bottom: $menu-border-radius solid $grey-color-dark;
@@ -25,7 +25,9 @@ nav ul {
 nav ul li {
     float: left;
     position: relative;
-    border-left: 1px solid darken($grey-color, 15%);
+    &:not(:first-child) {
+        border-left: 1px solid darken($grey-color, 15%);
+    }
 }
 
 nav ul a {
