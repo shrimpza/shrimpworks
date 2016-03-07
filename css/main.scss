@@ -18,7 +18,7 @@ $spacing-unit:     30px;
 
 $text-color:       #222;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #e24a2a;
 $background:       url('/css/bg.png');
 
 $content-padding:       10px;
@@ -29,13 +29,17 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$header-background: rgba(255,255,255,0.5);
+$shadows:           0 0 7px rgba(0, 0, 0, 0.1);
+
+
 // Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$menu-border-radius: 4px;
+$menu-border-radius: 3px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
