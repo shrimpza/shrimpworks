@@ -32,7 +32,7 @@ layout: default
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Older Posts</a>
+      <a href="{{ paginator.next_page_path }}" class="next">&larr; Older Posts</a>
     {% endif %}
 
     {% if paginator.next_page and paginator.previous_page %}
@@ -40,10 +40,8 @@ layout: default
     {% endif %}
 
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a>
+      <a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts &rarr;</a>
     {% endif %}
   </div>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
