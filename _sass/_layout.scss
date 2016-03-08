@@ -52,6 +52,11 @@
         }
     }
 
+    input {
+        font-size: 16px;
+        line-height: $base-line-height;
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
