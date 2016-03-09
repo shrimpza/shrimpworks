@@ -44,3 +44,7 @@ gallerytag:
   thumb_width: 200
   thumb_height: 200
   columns: 0
+
+smileytheme: emoji-one
+smileypath: /assets/smileys
+
