@@ -2,30 +2,33 @@ require 'pathname'
 
 module Jekyll
     module Filters
+        @imgmap = nil
+        @ext = "png"
+
         def smilify(text)
             sitecontext = @context.registers[:site];
 
             theme = sitecontext.config['smileytheme']
-						path = sitecontext.config['smileypath']
+            path = sitecontext.config['smileypath']
             mappath = (Pathname.new(sitecontext.source) + "_includes/smileys").expand_path
 
             unless theme == false
-                imgmap = YAML.load_file("#{mappath}/default.yml");
-                if File.exists?("#{mappath}/#{theme}.yml")
-                    newmap = YAML.load_file("#{mappath}/#{theme}.yml")
-                    imgmap = imgmap.merge(newmap)
+
+                if @imgmap == nil
+                    @imgmap = YAML.load_file("#{mappath}/default.yml");
+                    if File.exists?("#{mappath}/#{theme}.yml")
+                        newmap = YAML.load_file("#{mappath}/#{theme}.yml")
+                        @imgmap = @imgmap.merge(newmap)
+                    end
+                    ext = (@imgmap.shift)[1]
                 end
 
-                ext = (imgmap.shift)[1]
-                imgmap.each do |smiley, regex|
+                @imgmap.each do |smiley, regex|
                     if File.exists?((Pathname.new(sitecontext.source) + "#{path}/#{theme}/#{smiley}.#{ext}").expand_path)
-                        if regex == "" then regex = "n^" end
-                        text.gsub!(Regexp.new("(^|\\s|<(?!(?:!nosmiley|pre|code)).*?>)(?:#{regex}|(?:\\{:#{smiley}:\\}))(?=\\W?(?:\\s|<[^!].*?>|$))", "i"), "\\1<img src='/#{path}/#{theme}/#{smiley}.#{ext}' alt='[#{smiley}]' class='smiley'/>")
+                        if regex != ""
+                            text.sub!(regex, "<img src='/#{path}/#{theme}/#{smiley}.#{ext}' alt='[#{smiley}]' class='smiley'/>")
+                        end
                     end
-                end
-                imgmap.each do |smiley, regex|
-                    if regex == "" then regex = "n^" end
-                    text.gsub!(Regexp.new("(^|\\s|<(?!(?:!nosmiley|pre|code)).*?>)(=*)=(#{regex}|(?:\\{:#{smiley}:\\}))=(?=\\2\\W?(?:\\s|<[^!].*?>|$))", "i"), "\\1<!nosmiley-->\\2\\3<!-->")
                 end
             end
 
