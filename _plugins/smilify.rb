@@ -26,7 +26,7 @@ module Jekyll
                 @imgmap.each do |smiley, regex|
                     if File.exists?((Pathname.new(sitecontext.source) + "#{path}/#{theme}/#{smiley}.#{ext}").expand_path)
                         if regex != ""
-                            text.sub!(regex, "<img src='/#{path}/#{theme}/#{smiley}.#{ext}' alt='[#{smiley}]' class='smiley'/>")
+                            text.gsub!(/#{regex}/, "<img src='/#{path}/#{theme}/#{smiley}.#{ext}' alt='[#{smiley}]' class='smiley'/>")
                         end
                     end
                 end
