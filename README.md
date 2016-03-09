@@ -8,6 +8,8 @@ This is my website source, which is meant to be built by [Jekyll](http://jekyllr
 
 - `sudo aptitude install imagemagick ruby2.2-dev`
 - `sudo gem install jekyll jekyll-paginate mini_magick`
+- `jekyll build`
+- `rsync -vrzh _site/* user@host:/path/to/www`
 
 #### Collections
 
