@@ -51,28 +51,27 @@ client.
 
 As always, a new project provides some practice/learning opportunities:
 
--   API driven development\
+-   API driven development<br />
     I know what I want ZOMB to be able to to, so I began by defining the
     client and plugin APIs, around which the rest of the design
     must fit. I normally write a bunch of code, then stick an API on top
     of it, but trying it the other way around this time. Seems to
     be working.
--   Test driven development\
+-   Test driven development<br />
     just to keep practicing :-)
--   Git and Github\
+-   Git and Github<br />
     since we're hopefully going to be using Git at work in the near
     future, best to get some practice in.
--   [Custom Ant and Ivy build
-    scripts](https://github.com/shrimpza/antscripts)\
+-   [Custom Ant and Ivy build scripts](https://github.com/shrimpza/antscripts)<br />
     I like Ant and Ivy and need to practice configuring and maintaining
     them from scratch.
--   [Travis-CI](https://travis-ci.org/shrimpza/zomb)\
+-   [Travis-CI](https://travis-ci.org/shrimpza/zomb)<br />
     continuous integration for Github projects, since it's cool to have
     a green light somewhere showing that stuff's not broken, and I've
     never used any CI stuff outside of work.
--   More granular commits\
+-   More granular commits<br />
     committing smaller changes more often - I don't know if this is a
     good thing or not, but seeing how it works out
--   All on Windows\
+-   All on Windows<br />
     I haven't really built a proper project on Windows for years :D
 
