@@ -27,4 +27,14 @@ All static files stored within `assets` directory, as follows:
 - `links` - social/link icons for the links collection in the footer
 - `posts` - images and things inserted into posts
 - `projects` - subdirectories group collections of files per project
+- `smileys` - smilify plugin smiley themes (currently custom EmojiOne)
 
+#### Plugins
+
+Currently the following plugins are in use:
+
+- GalleryTag - based on https://github.com/internaut/JekyllGalleryTag (with a few custom changes)
+- YouTube - https://github.com/pibby/jekyll-youtube
+- Smilify - https://github.com/SaswatPadhi/jekyll_smilify (with several custom changes)
+
+To see the changes, just look at the commit history for the contents of `_plugins`.
