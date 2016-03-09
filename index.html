@@ -15,11 +15,10 @@ layout: default
 
         <div>
           {% if post.excerpt != "" %}
-            {{ post.excerpt }}
-
+            {{ post.excerpt | smilify }}
             <div><a href="{{ post.url | prepend: site.baseurl }}">Continue reading...</a></div>
           {% else %}
-            {{ post.content }}
+            {{ post.content | smilify }}
           {% endif %}
         </div>
 

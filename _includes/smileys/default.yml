@@ -1,5 +1,5 @@
 # Default image format
-format                  :      gif
+format                  :      png
 
 # Default shortcuts for smileys
 rock                    :      "(\\\\m\\/)"

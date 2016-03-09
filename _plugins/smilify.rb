@@ -20,7 +20,7 @@ module Jekyll
                 imgmap.each do |smiley, regex|
                     if File.exists?((Pathname.new(sitecontext.source) + "#{path}/#{theme}/#{smiley}.#{ext}").expand_path)
                         if regex == "" then regex = "n^" end
-                        text.gsub!(Regexp.new("(^|\\s|<(?!(?:!nosmiley|pre|code)).*?>)(?:#{regex}|(?:\\{:#{smiley}:\\}))(?=\\W?(?:\\s|<[^!].*?>|$))", "i"), "\\1<img src='#{sitecontext.config['root']}images/smileys/#{theme}/#{smiley}.#{ext}' alt='[#{smiley}]' class='smiley'/>")
+                        text.gsub!(Regexp.new("(^|\\s|<(?!(?:!nosmiley|pre|code)).*?>)(?:#{regex}|(?:\\{:#{smiley}:\\}))(?=\\W?(?:\\s|<[^!].*?>|$))", "i"), "\\1<img src='/#{path}/#{theme}/#{smiley}.#{ext}' alt='[#{smiley}]' class='smiley'/>")
                     end
                 end
                 imgmap.each do |smiley, regex|
