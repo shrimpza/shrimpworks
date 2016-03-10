@@ -1,7 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import url(https://fonts.googleapis.com/css?family=Squada+One|Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Sans);
 @charset "utf-8";
 
 
@@ -12,7 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$header-font-family: "Squada One", serif;
+$header-font-family: "Noto Serif", serif;
 
 $spacing-unit:     30px;
 
@@ -23,13 +23,13 @@ $background:       url('/css/bg.png');
 
 $content-padding:       10px;
 $content-border-radius: 8px;
-$content-background:    rgba(255,255,255,0.5);
+$content-background:    rgba(255,255,255,0.3);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$header-background: rgba(255,255,255,0.5);
+$header-background: rgba(255,255,255,0.3);
 $shadows:           0 0 7px rgba(0, 0, 0, 0.1);
 
 
