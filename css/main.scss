@@ -23,18 +23,18 @@ $background:       url('/css/bg.png');
 
 $content-padding:       10px;
 $content-border-radius: 8px;
-$content-background:    rgba(255,255,255,0.05);
+$content-background:    rgba(255,255,255,0.2);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$header-background: rgba(255,255,255,0.15);
+$header-background: rgba(255,255,255,0.2);
 $shadows:           0 0 7px rgba(0, 0, 0, 0.05);
 
 
 // Width of the content area
-$content-width:    1000px;
+$content-width:    900px;
 
 $on-palm:          600px;
 $on-laptop:        1000px;
