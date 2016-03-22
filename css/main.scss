@@ -56,6 +56,12 @@ $menu-border-radius: 3px;
     }
 }
 
+@mixin media-query-not($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
