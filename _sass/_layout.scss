@@ -213,10 +213,24 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    padding-top: $spacing-unit;
 
     > li {
-        margin-bottom: $spacing-unit;
         clear: both;
+    }
+
+    .post-content {
+        margin-left: $left-width;
+        margin-bottom: $spacing-unit;
+        border-bottom: 1px solid $grey-color-light;
+    }
+
+    .post-title {
+        float: left;
+        position: absolute;
+        width: -webkit-calc(#{$left-width} - (#{$spacing-unit}));
+        width:         calc(#{$left-width} - (#{$spacing-unit}));
+        text-align: right;
     }
 }
 
@@ -241,8 +255,8 @@
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    /*letter-spacing: 1px;*/
+    line-height: 1.2;
 
     @include media-query($on-laptop) {
         font-size: 36px;

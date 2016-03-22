@@ -1,18 +1,18 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif|Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Noto+Sans);
 @charset "utf-8";
 
 
 // Our variables
 $base-font-family: "Noto Sans", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   17px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
-$header-font-family: "Noto Serif", serif;
+$header-font-family: "Roboto Condensed", serif;
 
 $spacing-unit:     30px;
 
@@ -23,21 +23,23 @@ $background:       url('/css/bg.png');
 
 $content-padding:       10px;
 $content-border-radius: 8px;
-$content-background:    rgba(255,255,255,0.3);
+$content-background:    rgba(255,255,255,0.05);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$header-background: rgba(255,255,255,0.3);
-$shadows:           0 0 7px rgba(0, 0, 0, 0.1);
+$header-background: rgba(255,255,255,0.15);
+$shadows:           0 0 7px rgba(0, 0, 0, 0.05);
 
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        1000px;
+
+$left-width:       250px;
 
 $menu-border-radius: 3px;
 
