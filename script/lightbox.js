@@ -12,7 +12,7 @@
     this.lightbox = document.createElement('a');
     this.img = document.createElement('img');
 
-    this.lightbox.setAttribute('href', '#');
+    this.lightbox.setAttribute('href', '#_');
     this.lightbox.setAttribute('id', 'lightbox');
     this.lightbox.classList.add('lightbox');
     this.lightbox.appendChild(this.img);
