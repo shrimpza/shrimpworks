@@ -7,7 +7,7 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <div class="post-title">
+        <div class="post-header post-title">
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>

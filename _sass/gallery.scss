@@ -12,5 +12,10 @@
 }
 
 .gallery-link {
-	display: block;
+	  display: block;
+}
+
+.gallery .thumbnail {
+    max-width: 185px;
+    max-height: 185px;
 }
