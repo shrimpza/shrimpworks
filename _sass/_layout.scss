@@ -220,22 +220,9 @@
     }
 
     .post-content {
-        /*@include media-query-not($on-laptop) {
-            margin-left: $left-width;
-        }*/
         margin-bottom: $spacing-unit;
         border-bottom: 1px solid $grey-color-light;
     }
-
-  /*  @include media-query-not($on-laptop) {
-        .post-title {
-            float: left;
-            position: absolute;
-            width: -webkit-calc(#{$left-width} - (#{$spacing-unit}));
-            width:         calc(#{$left-width} - (#{$spacing-unit}));
-            text-align: right;
-        }
-    }*/
 }
 
 .post-meta {
