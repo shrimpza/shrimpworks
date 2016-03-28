@@ -12,7 +12,7 @@ website has been reproduced on a single page, in sections below. As an
 addendum, more Monster Hunt related downloads can be found at
 [UT-Files.com](http://ut-files.com/index.php?dir=GameTypes/MonsterHunt/).*
 
-*Additionally, the [Monster Hunt Source code]({% post_url 2006-02-05-monster-hunt-source-code-release %}) 
+*Additionally, the [Monster Hunt Source code]({% post_url 2006-02-05-monster-hunt-source-code-release %})
 was released in February 2006.*
 
 {% youtube yz6lJwUSkmo %}
@@ -61,16 +61,10 @@ Hunt:
 
 <br />
 
-![shot7](/assets/projects/monster-hunt/shot7.jpg){: .image-center}
-![shot6](/assets/projects/monster-hunt/shot6.jpg){: .image-center}
-![shot5](/assets/projects/monster-hunt/shot5.jpg){: .image-center}
-![shot4](/assets/projects/monster-hunt/shot4.jpg){: .image-center}
-![shot3](/assets/projects/monster-hunt/shot3.jpg){: .image-center}
-![shot2](/assets/projects/monster-hunt/shot2.jpg){: .image-center}
-![shot1](/assets/projects/monster-hunt/shot1.jpg){: .image-center}
-![shot10](/assets/projects/monster-hunt/shot10.jpg){: .image-center}
-![shot9](/assets/projects/monster-hunt/shot9.jpg){: .image-center}
-![shot8](/assets/projects/monster-hunt/shot8.jpg){: .image-center}
+
+{% gallery photos %}
+  monster-hunt/
+{% endgallery %}
 
 -----
 
