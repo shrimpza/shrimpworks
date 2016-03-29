@@ -10,10 +10,10 @@ tags:
 excerpt_separator: <!--more-->
 ---
 
-It seems surprisingly difficult to find a simple lightbox implementation which
-doesn't rely on jQuery. I wanted something simple for this site, but did not
-want to have to re-do any HTML, so came up with a basic JavaScript and CSS
-solution.
+It seems surprisingly difficult to find a simple [lightbox](https://en.wikipedia.org/wiki/Lightbox_%28JavaScript%29)
+implementation which doesn't rely on jQuery. I wanted something simple for this
+site, but did not want to have to re-do any HTML, so came up with a basic
+JavaScript and CSS solution.
 
 This also turned out to be a useful lesson in "modern" jQuery-less DOM
 manipulation. I found [10 Tips for Writing JavaScript without jQuery](http://tutorialzine.com/2014/06/10-tips-for-writing-javascript-without-jquery/)
