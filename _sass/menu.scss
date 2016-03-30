@@ -6,7 +6,7 @@ nav ul, nav ol, nav li { /* reset */
 nav .down-arrow {
     font-size: 0.5em;
     vertical-align: top;
-    color: $grey-color-light;
+    color: $grey-color-dark;
 }
 
 nav ul {
@@ -16,24 +16,25 @@ nav ul {
     float: left; /* Clear floats */
     width: 100%;
     line-height: 1em;
-    background: $grey-color-dark;
+    /*background: $grey-color-dark;
 
     border-bottom: $menu-border-radius solid $grey-color-dark;
-    border-radius: 0px 0px $menu-border-radius $menu-border-radius;
+    border-radius: 0px 0px $menu-border-radius $menu-border-radius;*/
 }
 
 nav ul li {
     float: left;
     position: relative;
-    &:not(:first-child) {
+    /*&:not(:first-child) {
         border-left: 1px solid darken($grey-color, 15%);
-    }
+    }*/
 }
 
 nav ul a {
+    font-family: $header-font-family;
     display: block;
     padding: 10px;
-    color: $background-color;
+    color: $text-color;
     text-decoration: none;
 }
 
@@ -44,7 +45,7 @@ nav ul a:hover {
 }
 
 nav ul a:visited {
-    color: $background-color;
+    color: $text-color;
 }
 
 /*--- DROPDOWN ---*/
@@ -67,6 +68,11 @@ nav ul ul li {
 
 nav ul ul a {
     white-space: nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+    color: $background-color;
+}
+
+nav ul ul a:visited {
+    color: $background-color;
 }
 
 nav ul li:hover ul { /* Display the dropdown on hover */
@@ -76,6 +82,7 @@ nav ul li:hover ul { /* Display the dropdown on hover */
 nav ul li:hover a { /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
     text-decoration: none;
     background: $brand-color;
+    color: $background-color;
 }
 
 nav ul li:hover ul a { /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */

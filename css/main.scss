@@ -1,18 +1,18 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300|Oxygen:300);
 @charset "utf-8";
 
 
 // Our variables
-$base-font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+$base-font-family: "Oxygen", Helvetica, Arial, sans-serif;
 $base-font-size:   17px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6;
 
-$header-font-family: "Roboto Condensed", serif;
+$header-font-family: "Raleway", serif;
 
 $spacing-unit:     30px;
 
