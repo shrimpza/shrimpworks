@@ -16,18 +16,11 @@ nav ul {
     float: left; /* Clear floats */
     width: 100%;
     line-height: 1em;
-    /*background: $grey-color-dark;
-
-    border-bottom: $menu-border-radius solid $grey-color-dark;
-    border-radius: 0px 0px $menu-border-radius $menu-border-radius;*/
 }
 
 nav ul li {
     float: left;
     position: relative;
-    /*&:not(:first-child) {
-        border-left: 1px solid darken($grey-color, 15%);
-    }*/
 }
 
 nav ul a {
