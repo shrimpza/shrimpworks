@@ -11,7 +11,15 @@ layout: default
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
-          <span class="post-meta">{{ post.date | date: " %-d %b %Y" }}</span>
+          <span class="post-meta">
+            <div>{{ post.date | date: "%-d %b %Y" }} <img src="/css/icons/calendar.svg" class="icon" title="Date" /></div>
+            {% if post.categories.size > 0 %}
+              <div>{{ post.categories | join: ", " }} <img src="/css/icons/folder.svg" class="icon" title="Categories" /></div>
+            {% endif %}
+            {% if post.tags.size > 0 %}
+              <div>{{ post.tags | join: ", " }} <img src="/css/icons/tags.svg" class="icon" title="Tags" /></div>
+            {% endif %}
+          </span>
         </div>
 
         <div class="post-content">

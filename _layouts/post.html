@@ -5,7 +5,15 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <span class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }} <img src="/css/icons/calendar.svg" class="icon" title="Date" /></time>
+      {% if page.categories.size > 0 %}
+        <div>{{ page.categories | join: ", " }} <img src="/css/icons/folder.svg" class="icon" title="Categories" /></div>
+      {% endif %}
+      {% if page.tags.size > 0 %}
+        <div>{{ page.tags | join: ", " }} <img src="/css/icons/tags.svg" class="icon" title="Tags" /></div>
+      {% endif %}
+    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
