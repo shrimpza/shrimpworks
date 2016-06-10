@@ -14,7 +14,7 @@ tags:
 
 Kodi on Debian Sid/Unstable:
 
-# Debian netinst
+# Debian firmware-netinst
 # Install vim, sudo
 # Upgrade to sid
 # Install lightdm, openbox
@@ -24,8 +24,11 @@ Kodi on Debian Sid/Unstable:
 # Install kodi
 # Install alsa, alsa-utils
 # Configure alsamixer
+# Install lirc
+# Configure lirc
 # Install steam
 # Install pulseaudio
 # Disable pulseaudio auto-start and daemon
 # Create .asoundrc
 # Configure kodi auto-start
+# Install xbox driver
