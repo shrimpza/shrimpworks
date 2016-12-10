@@ -79,12 +79,14 @@ module Jekyll
 			input_data = block_contents(context)
 			source_dir = @config['source_dir'] != nil ? @config['source_dir'].sub(/^\//, '') : (@config['url'] != nil ? @config['url'].sub(/^\//, '') : "images/thumbs");
 			gallery_data = []
+
 			input_data.each do |item|
 				full_item_path = File.join(source_dir, item[0])
 				item_ok = File.readable?(full_item_path)
 				if File.directory?(full_item_path) && item_ok   # check if this item points to a directory
 					itemnum = 1
-					Dir.glob(File.join(full_item_path, "*.{png,jpg,jpeg,gif}")).each do |file|
+					sorted = Dir.glob(File.join(full_item_path, "*.{png,jpg,jpeg,gif}")).sort_by { |f| File.basename(f) }
+					sorted.each do |file|
 						file_in_gal_path = File.join(item[0], File.basename(file))
 
 						hsh = gen_gallery_data_from_item(file_in_gal_path, source_dir, item[1], itemnum)
