@@ -14,6 +14,8 @@ tags:
 excerpt_separator: <!--more-->
 ---
 
+![](/assets/posts/2016-12-18-sixaxis.png){: .image-right}
+
 Continuing to [tweak]({% post_url 2016-12-16-lirc-and-kodi%}) my [Kodi setup]({% post_url 2016-06-10-kodi-on-debian-sid%}), I thought it would be fun to attempt connecting a PS3 Sixaxis controller to it, since the HTPC I'm using has built-in bluetooth.
 
 Contrary to what most of the internet seems to say on the subject for Debian/Ubuntu systems, which seems to involve third-party tools and sometimes compiling things, I found the process much simpler on a modern system.
