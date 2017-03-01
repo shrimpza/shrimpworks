@@ -137,8 +137,6 @@
     margin-left: 0;
     float: left;
 
-    width: 50%;
-
     font-size: 0.9em;
 
     img {
@@ -146,8 +144,16 @@
     }
 
     li {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
     }
+}
+
+.contact-list {
+    width: 50%;
+}
+
+.social-media-list {
+    width: 33%;
 }
 
 .footer-col-wrapper {
