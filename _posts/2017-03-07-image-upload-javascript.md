@@ -1,6 +1,6 @@
 ---
 layout: post
-status: draft
+status: publish
 published: true
 title: Client-Side Processing of Images with JavaScript Before Uploading
 categories:
