@@ -16,7 +16,7 @@ A lot more information, screenshots and discussion can be found on the
 [UnWheel ModDB page](http://www.moddb.com/mods/unwheel).
 
 Finally, a round-up of the various awards and accolades accumulated by
-UnWheel [can be found on this page](% post_url 2005-01-17/unwheel-moddbs-1-driving-mod-2004 %).
+UnWheel [can be found on this page]({% post_url 2005-01-17-unwheel-moddbs-1-driving-mod-2004 %}).
 
 -----
 
@@ -125,4 +125,3 @@ to monster trucks, quad-bikes and massive mining trucks.
     Twofer - Map work and suggestions <br />
     FuSiON - Vehicle model touch-ups <br />
     Graf1k - Rowing boat mesh (seen in UWRC-LostGods)
-
