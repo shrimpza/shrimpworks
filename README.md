@@ -36,5 +36,6 @@ Currently the following plugins are in use:
 - GalleryTag - based on https://github.com/internaut/JekyllGalleryTag (with a few custom changes)
 - YouTube - https://github.com/pibby/jekyll-youtube
 - Smilify - https://github.com/SaswatPadhi/jekyll_smilify (with several custom changes)
+- Generate Categories - based on https://github.com/recurser/jekyll-plugins (removed features not used)
 
 To see the changes, just look at the commit history for the contents of `_plugins`.
