@@ -1,0 +1,23 @@
+---
+layout: page
+title: Post Index
+---
+
+<div class="posts">
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <div class="post-meta">
+        <span><img src="/css/icons/calendar.svg" class="icon" title="Date" /> {{ post.date | date: "%-d %b %Y" }}</span>
+        {% if post.categories.size > 0 %}
+          <span><img src="/css/icons/folder.svg" class="icon" title="Categories" /> {{ post.categories | join: ", " }}</span>
+        {% endif %}
+        {% if post.tags.size > 0 %}
+          <span><img src="/css/icons/tags.svg" class="icon" title="Tags" /> {{ post.tags | join: ", " }}</span>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
