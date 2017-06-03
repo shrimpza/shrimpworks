@@ -14,7 +14,12 @@ layout: default
           <span class="post-meta">
             <div>{{ post.date | date: "%-d %b %Y" }} <img src="/css/icons/calendar.svg" class="icon" title="Date" /></div>
             {% if post.categories.size > 0 %}
-              <div>{{ post.categories | join: ", " }} <img src="/css/icons/folder.svg" class="icon" title="Categories" /></div>
+            <div>
+              {% for category in post.categories %}
+                <a href="/{{ site.category_dir }}/{{ category | downcase }}">{{ category }}</a>{% if forloop.last == false %},{% endif %}
+              {% endfor %}
+              <img src="/css/icons/folder.svg" class="icon" title="Categories" />
+            </div>
             {% endif %}
             {% if post.tags.size > 0 %}
               <div>{{ post.tags | join: ", " }} <img src="/css/icons/tags.svg" class="icon" title="Tags" /></div>

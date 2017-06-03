@@ -27,6 +27,10 @@ gems: [jekyll-paginate, mini_magick]
 paginate: 10
 paginate_path: "/page/:num"
 
+# category config
+category_title_prefix: "Category: "
+category_dir: "categories"
+
 # Page collections
 collections:
   gallery:
@@ -47,4 +51,3 @@ gallerytag:
 
 smileytheme: emoji-one
 smileypath: assets/smileys
-
