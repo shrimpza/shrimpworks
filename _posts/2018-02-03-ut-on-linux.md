@@ -76,7 +76,7 @@ prerequisites:
 - Once Steam is installed, launch it and install Unreal Tournament GOTY
 - Download the [Enhanced OpenGL Renderer][ogl-render-win] version 3.7 
   ([mirror download][utglr37.zip]), extract `OpenGLDrv.dll` and place it into 
-  `~/.wine/ut/Games/Steam/steamapps/common/Unreal Torunament/System/`, 
+  `~/.wine/ut/drive_c/Steam/steamapps/common/Unreal Torunament/System/`, 
   overwriting the existing file.
     - This fixes things like brightness adjustment and supports things like 
       decals and detail textures, providing much better visuals.
