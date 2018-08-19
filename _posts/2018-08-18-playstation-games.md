@@ -10,6 +10,8 @@ tags:
 - PlayStation
 ---
 
+![](/assets/posts/2018-08-18-playstation-games/playstation.png){: .image-right}
+
 I recently wanted to play original set of Metal Gear Solid games, but since I'm
 now lacking any PlayStation hardware, thought I'd try out emulation.
 
@@ -46,7 +48,6 @@ Here's a simple Bash script for dumping/ripping your PlayStation 1 games
 #!/bin/bash
 
 GAMEFILE="$1/$1"
-
 mkdir "$1"
 
 cdrdao read-cd --read-raw --datafile "$GAMEFILE.bin" --device /dev/cdrom --driver generic-mmc-raw "$GAMEFILE.toc"
@@ -60,7 +61,6 @@ And here's the process for dumping/ripping PlayStation 2 games
 #!/bin/bash
 
 GAMEFILE="$1/$1"
-
 mkdir "$1"
 
 BLK_SIZE=$(isoinfo -d -i /dev/cdrom | grep -i -E 'block size' | sed 's/[^0-9]*//')
