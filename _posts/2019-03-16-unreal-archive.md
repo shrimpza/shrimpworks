@@ -11,14 +11,14 @@ tags:
 - Unreal
 ---
 
-![](/assets/posts/2019-03-14-unreal-archive.png){: .image-right}
+![](/assets/posts/2019-03-16-unreal-archive.png){: .image-right}
 
 Over the past several months, I've been working on a project to provide a
 place to catalogue and preserve the vast amounts of user-created content the 
 Unreal and Unreal Tournament community has been creating over the past 20+ 
 years. 
 
-This has resulted in the [https://unrealarchive.org/](Unreal Archive).
+This has resulted in the [Unreal Archive](https://unrealarchive.org/).
 
 While it may seem a silly cause to invest so much time (and money) into, this
 stuff directly influenced the lives of myself and thousands of others. I would
@@ -36,16 +36,16 @@ it can be hard to download, as people generally don't appreciate you mirroring
 
 Thus, the Unreal Archive is an initiative to gather up, index, and catalogue
 as much Unreal, UT99 and UT2004 content as possible. So far, we have 
-[https://unrealarchive.org/maps/](maps),
-[https://unrealarchive.org/mapspacks/](map packs), 
-[https://unrealarchive.org/voices/](voices), 
-[https://unrealarchive.org/skins/](skins), 
-[https://unrealarchive.org/mutators/](mutators), 
-[https://unrealarchive.org/models/](player models), as well as support for
+[maps](https://unrealarchive.org/maps/),
+[map packs](https://unrealarchive.org/mapspacks/), 
+[voices](https://unrealarchive.org/voices/), 
+[skins](https://unrealarchive.org/skins/), 
+[mutators](https://unrealarchive.org/mutators/), 
+[player models](https://unrealarchive.org/models/), as well as support for
 things such as 
-[https://unrealarchive.org/patches-updates/](patches, updates and drivers) as
+[patches, updates and drivers](https://unrealarchive.org/patches-updates/) as
 well as a (currently very empty) section for 
-[https://unrealarchive.org/documents/](written documents) with the intent of 
+[written documents](https://unrealarchive.org/documents/) with the intent of 
 providing guides, tutorials, manuals, and other related documented knowledge
 which also seems to get lost and forgotten.
 
@@ -68,8 +68,9 @@ things on the internet, these are some of my motivations:
 - the "database" is Git - easy to distribute amongst many people, and since
   this is primarily an archive, the data does not change rapidly enough to
   require anything more real-time.
-- the entire project is "licensed" under UNLICENSE, with the intent of it
-  being as absolutely open as possible, for as long as possible.
+- the entire project is "licensed" under [UNLICENSE](https://unlicense.org/), 
+  with the intent of it being as absolutely open as possible, for as long as
+  possible.
  
 As I'm collecting a lot of the data for the archive directly from the pieces 
 of content themselves, a large part of implementing this also involved figuring
@@ -77,11 +78,11 @@ out the Unreal Package data formats. Thankfully there are still several
 references for this hanging around, and many people have made their research
 on the topic public.
 
-I've released a separate [https://github.com/shrimpza/unreal-package-lib/](Unreal Package Library)
+I've released a separate [Unreal Package Library](https://github.com/shrimpza/unreal-package-lib/)
 (Java) which some people may find useful. I'm using it to read map information,
 such as authors, player counts, titles, etc, export images such as screenshots 
 and player portraits, as well as for parsing Unreal's INT and UPL metadata 
 files (more-or-less glorified INI files).
 
-[https://github.com/unreal-archive/](All the code for the project is up on GitHub),
+[All the code for the project is up on GitHub](https://github.com/unreal-archive/),
 as is the content database.
