@@ -38,13 +38,13 @@ public class SimpleHTTPService {
         server.createContext("/headers", new HttpHandler() {
             @Override
             public void handle(HttpExchange he) throws IOException {
-                StringBuilder result = new StringBuilder("Request Headers");
-                for (Entry< String, List< String>> header : he.getRequestHeaders().entrySet()) {
-                    result.append(String.format("%s", header.getKey()));
+                StringBuilder result = new StringBuilder("Request Headers:\n");
+                for (Map.Entry< String, List< String>> header : he.getRequestHeaders().entrySet()) {
+                    result.append(String.format("%s: ", header.getKey()));
                     for (String val : header.getValue()) {
-                        result.append(String.format("%s", val));
+                        result.append(String.format("%s ", val));
                     }
-                    result.append("");
+                    result.append("\n");
                 }
 
                 byte[] output = result.toString().getBytes();
