@@ -111,7 +111,7 @@ TimeoutStopSec=120
 Restart=always
    
 [Install]
-WantedBy=multi-user.targeit
+WantedBy=multi-user.target
 ```
 
 Note the `EnvironmentFile` is only needed if your config is defined using 
