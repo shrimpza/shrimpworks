@@ -21,6 +21,8 @@ excerpt_separator: ""
 markdown: kramdown
 highlighter: rouge
 
+plugins: [jekyll-paginate]
+
 gems: [jekyll-paginate, mini_magick]
 
 # blog entry pagination
