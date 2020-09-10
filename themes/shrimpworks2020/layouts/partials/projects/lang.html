@@ -1,0 +1,8 @@
+{{ if .Params.lang }}
+<div class="lang"><img src="{{ "images/icons/code.svg" | absURL }}" class="icon" alt="languages" title="Languages"  />
+	{{- range $i, $e := .Params.lang }}
+	{{- if $i }}, {{ end }}
+	{{ $e }}
+	{{- end }}
+</div>
+{{ end }}

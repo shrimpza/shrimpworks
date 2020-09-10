@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+<head>
+	<meta charset="utf-8">
+	<title>{{ block "title" . }}{{ .Site.Title }}{{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+
+	<link rel="icon" type="image/png" href="/images/favicon.png"/>
+
+	{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+	{{ $style := resources.Get "main.scss" | resources.ToCSS $options }}
+	<link rel="stylesheet" href="/css/fonts/fonts.css"/>
+	<link rel="stylesheet" href="{{ $style.Permalink }}"/>
+
+	{{ range .AlternativeOutputFormats -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s"/>` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+
+	<meta name="viewport" content="width=device-width,minimum-scale=1"/>
+</head>
+
+<body>
+	<div class="page">
+		{{- partial "header.html" . -}}
+
+		<main>
+			{{- block "main" . }}{{- end }}
+		</main>
+
+		{{- partial "sidebar/sidebar.html" . -}}
+
+		{{- partial "footer.html" . -}}
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+{{ if .Params.description }}
+<div class="description"><img src="{{ "images/icons/info-circle.svg" | absURL }}" class="icon" alt="date" title="Date" /> {{ markdownify .Params.description }}</div>
+{{ end }}

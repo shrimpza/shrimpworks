@@ -1,0 +1,11 @@
+name = "ShrimpWorks 2020"
+license = "MIT"
+description = ""
+homepage = "https://shrimpworks.za.net/"
+tags = []
+features = []
+min_version = "0.59"
+
+[author]
+  name = "Kenneth Watson"
+  homepage = "https://shrimpworks.za.net/"

@@ -1,8 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
-.jekyll-cache
-assets/gallery/thumbs/
-
+resources
+public
 .idea
 *.iml

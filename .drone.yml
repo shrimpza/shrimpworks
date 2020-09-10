@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: build
+    image: ariejan/drone-hugo
+    settings:
+      hugo_version: 0.74.3

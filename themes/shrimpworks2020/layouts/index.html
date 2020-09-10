@@ -1,0 +1,6 @@
+{{ define "main" }}
+
+  {{ range (.Paginate (where .Site.RegularPages "Type" "post")).Pages }} {{ partial "post/summary" . }} {{ end }}
+  {{ partial "paginator" . }}
+
+{{ end }}

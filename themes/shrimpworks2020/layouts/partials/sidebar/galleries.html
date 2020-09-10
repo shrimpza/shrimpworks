@@ -1,0 +1,12 @@
+<section>
+	<div class="title">Galleries</div>
+	<div class="body">
+		<ul>
+			{{ range where .Site.RegularPages "Section" "gallery" }}
+			<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+			{{ else }}
+				<li>No galleries!</li>
+			{{ end }}
+		</ul>
+	</div>
+</section>

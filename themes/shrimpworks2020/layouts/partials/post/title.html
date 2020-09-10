@@ -1,0 +1,12 @@
+<div class="title">
+	<h2>
+		<a href="{{ .Permalink }}">
+			<img src="{{ "images/icons/arrow-down-right-circle.svg" | absURL }}" class="icon top" alt="title" />{{ .Title }}
+		</a>
+	</h2>
+	<div class="meta">
+		{{ partial "post/date" . }}
+		{{ partial "post/categories" . }}
+		{{ partial "post/tags" . }}
+	</div>
+</div>

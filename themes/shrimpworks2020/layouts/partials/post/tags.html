@@ -1,0 +1,8 @@
+{{ if .Params.tags }}
+<div class="tags"><img src="{{ "images/icons/tags.svg" | absURL }}" class="icon" alt="tags" title="Tags"  />
+{{- range $i, $e := .Params.tags }}
+{{- if $i }}, {{ end }}
+	<a href="{{ $.Site.BaseURL }}tags/{{ $e | urlize }}" class="tag">{{ humanize $e }}</a>
+{{- end }}
+</div>
+{{ end }}

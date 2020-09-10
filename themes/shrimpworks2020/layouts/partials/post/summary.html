@@ -1,0 +1,16 @@
+<article>
+	{{ partial "post/title" . }}
+
+	<section>
+		{{ if (.Params.split) }}
+			{{ .Summary }}
+			<p>
+				<a href="{{ .Permalink }}">
+					<img src="{{ "images/icons/arrow-right-circle.svg" | absURL }}" class="icon" alt="arrow" /> Continue Reading ...
+				</a>
+			</p>
+		{{ else }}
+			{{ .Content }}
+		{{ end }}
+	</section>
+</article>

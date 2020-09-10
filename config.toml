@@ -1,0 +1,28 @@
+baseURL = "https://shrimpworks.za.net/"
+languageCode = "en-gb"
+title = "ShrimpWorks"
+theme = "shrimpworks2020"
+paginate = 10
+rssLimit = 10
+timeout = 60000
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+
+[params]
+  subtitle = "why am I so n00b?"
+  mainSections = ["post"]
+  dateFormat = "2 Jan 2006"
+  galleryThumbSize = "214x214"
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"

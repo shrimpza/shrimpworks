@@ -1,0 +1,11 @@
+<footer>
+	<hr/>
+	<p>
+		&copy; {{ now.Format "2006" }}
+		{{ with .OutputFormats.Get "rss" -}}
+			<img src="{{ "images/icons/rss.svg" | absURL }}" alt="rss" class="icon" />
+			<a href="{{ .Permalink }}">Subscribe</a>
+		{{ end -}}
+	</p>
+	<p><i>There's no cookie disclaimer because there are no cookies.</i></p>
+</footer>

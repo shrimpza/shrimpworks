@@ -1,0 +1,12 @@
+{{ $currentPage := . }}
+
+{{ $thumbs := .Get "thumbs" | default (.Site.Params.galleryThumbSize | default "250x") }}
+{{ $path := .Get "path" | default "*" }}
+
+{{ $images := ((.Page.Resources.ByType "image").Match $path) }}
+
+<section class="gallery">
+	{{ range $images }}
+	{{- $thumb := .Fill ($thumbs) }}<a href="{{ .RelPermalink }}"><img src="{{ $thumb.RelPermalink }}" /></a>
+	{{- end }}
+</section>

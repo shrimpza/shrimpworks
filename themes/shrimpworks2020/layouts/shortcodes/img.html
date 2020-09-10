@@ -1,0 +1,13 @@
+<!-- img src=<name> [alt=alt-text] [thumb=thumb-size] [class=class-name] [link=link] -->
+{{ $img := $.Page.Resources.GetMatch (.Get "src")}}
+
+{{ if .Get "thumb"}}
+  {{ $thumb := $img.Resize (.Get "thumb") }}
+  <a href="{{ $img.RelPermalink }}">
+		<img src="{{ $thumb.RelPermalink }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}{{ with .Get "class"}}class="{{.}}"{{ end }} />
+	</a>
+{{ else }}
+  {{ if .Get "link"}}<a href="{{ .Get "link" }}">{{ end }}
+  <img src="{{ $img.RelPermalink }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}{{ with .Get "class"}}class="{{.}}"{{ end }} />
+  {{ if .Get "link"}}</a>{{ end }}
+{{ end }}

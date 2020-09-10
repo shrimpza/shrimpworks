@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Medium.woff2') format('woff2'),
+        url('Orbitron-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Share Tech Mono';
+    src: url('ShareTechMono-Regular.woff2') format('woff2'),
+        url('ShareTechMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inder';
+    src: url('Inder-Regular.woff2') format('woff2'),
+        url('Inder-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

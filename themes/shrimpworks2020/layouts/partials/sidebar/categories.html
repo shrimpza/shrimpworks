@@ -1,0 +1,12 @@
+<section>
+	<div class="title">Categories</div>
+	<div class="body">
+		<ul>
+			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+				<li><a href="{{ "/categories/" | relLangURL}}{{ $name | urlize }}">{{ humanize $name }}</a> ({{ .Count }})</li>
+			{{ else }}
+				<li>No categories!</li>
+			{{ end }}
+		</ul>
+	</div>
+</section>
