@@ -12,6 +12,8 @@ description: API client and suite of tools for monitoring Eve Online characters
 > the game exposed were changed completely, my which time I was no longer 
 > actively playing the game, so it did not make sense for me to rewrite for the
 > new APIs.
+>
+> [Hosted on GitHub](https://github.com/shrimpza/outofeve)
 
 {{< img src=ooe1.png thumb=300x class=image-left >}} 
 Out of Eve is a PHP web application which allows you to keep complete
