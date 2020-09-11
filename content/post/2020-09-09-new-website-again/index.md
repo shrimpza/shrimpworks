@@ -40,10 +40,14 @@ old layout style as well.
 It's perhaps a little busy, but everything's going to "clean" and stripped
 down these days, a bit of busy-ness is not the end of the world :).
 
-Here's how we looked in 2005! Thanks [archive.org](https://archive.org)
+Here's how we looked in 2005! Thanks [archive.org](https://archive.org)!
 
-{{< img src=old-shrimpworks.png thumb=800x class="full-width" >}}
+{{< img src=old-shrimpworks.png thumb=740x class="full-width" >}}
 
 Here's how we looked in 2014! 
 
-{{< img src=old-shrimpworks2.png thumb=800x class="full-width" >}}
+{{< img src=old-shrimpworks2.png thumb=740x class="full-width" >}}
+
+And here's what we've just come from.
+
+{{< img src=last-shrimpworks.png thumb=740x class="full-width" >}}
