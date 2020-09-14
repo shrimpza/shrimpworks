@@ -6,10 +6,7 @@
 
 	<link rel="icon" type="image/png" href="/images/favicon.png"/>
 
-	{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
-	{{ $style := resources.Get "main.scss" | resources.ToCSS $options }}
-	<link rel="stylesheet" href="/css/fonts/fonts.css"/>
-	<link rel="stylesheet" href="{{ $style.Permalink }}"/>
+	<style type="text/css">{{ (resources.Get "layout.scss" | resources.ToCSS (dict "outputStyle" "compressed")).Content | safeCSS }}</style>
 
 	{{ range .AlternativeOutputFormats -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s"/>` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -30,6 +27,10 @@
 
 		{{- partial "footer.html" . -}}
 	</div>
+
+	{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+	{{ $style := resources.Get "main.scss" | resources.ToCSS $options }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}"/>
 </body>
 
 </html>

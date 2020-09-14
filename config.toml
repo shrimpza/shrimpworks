@@ -19,6 +19,9 @@ timeout = 60000
   [markup.highlight]
     style = "dracula"
 
+[imaging]
+  quality = 85
+
 [outputs]
   home = ["HTML", "RSS"]
 

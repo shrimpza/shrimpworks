@@ -9,6 +9,6 @@ tags:
 title: New Car
 ---
 
-{{< img src=2018-04-02-new-car.jpg thumb=800x alt="" class="image-center full-width" >}}
+{{< img src=2018-04-02-new-car.jpg thumb=740x alt="" class="image-center full-width" >}}
 
 Said a teary farewell to some old things, got a new thing. Very happy with the new thing.

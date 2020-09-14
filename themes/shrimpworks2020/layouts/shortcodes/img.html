@@ -2,7 +2,7 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "src")}}
 
 {{ if .Get "thumb"}}
-  {{ $thumb := $img.Resize (.Get "thumb") }}
+  {{ $thumb := $img.Resize ( printf "%s %s" (.Get "thumb") "jpg" ) }}
   <a href="{{ $img.RelPermalink }}">
 		<img src="{{ $thumb.RelPermalink }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}{{ with .Get "class"}}class="{{.}}"{{ end }} />
 	</a>

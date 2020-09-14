@@ -8,7 +8,7 @@ tags: []
 title: Project Update - ZOMB
 ---
 
-{{< img src="2014-12-14-zomb-web.png" thumb=800x alt="zomb-web" class="image-center full-width" >}}
+{{< img src="2014-12-14-zomb-web.png" thumb=740x alt="zomb-web" class="image-center full-width" >}}
 
 As mentioned, [I've resurrected an old
 idea]({{< relref "2014-12-01-a-new-old-thing" >}} "A New (Old) Thing"),

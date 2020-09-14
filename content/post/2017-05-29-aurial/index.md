@@ -23,7 +23,7 @@ Podcasts, videos, and other things some clients support don't interest me at all
 
 Aurial allows me to build a music player the way I prefer to browse, manage and play music (which admittedly, is quite heavily influenced by my prior foobar200 configuration and usage habits).
 
-{{< img src="2017-05-29-aurial_shot.png" thumb=800x alt="aurial" class="image-centre full-width" >}}
+{{< img src="2017-05-29-aurial_shot.png" thumb=740x alt="aurial" class="image-centre full-width" >}}
 
 This was my first attempt at a [React](https://facebook.github.io/react/) application, and it started off simply enough, with JSX transpiling and stuff happening directly in the browser. At some point [Bable](https://babeljs.io/) was no longer available for browsers, which led to my adoption of [Webpack](https://webpack.js.org/) (and eventually Webpack 2) for producing builds.
 

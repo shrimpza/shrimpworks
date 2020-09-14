@@ -44,7 +44,7 @@ My solution is [Markdocs](https://github.com/shrimpza/markdocs) - a
 simple HTML and JavaScript application for organising individual
 Markdown documents as a documentation collection.
 
-{{< img src="2015-05-04-markdocs.png" thumb=800x alt="markdocs" class="image-center full-width" >}}
+{{< img src="2015-05-04-markdocs.png" thumb=740x alt="markdocs" class="image-center full-width" >}}
 
 See the README on the [Markdocs GitHub
 page](https://github.com/shrimpza/markdocs) for usage instructions.
