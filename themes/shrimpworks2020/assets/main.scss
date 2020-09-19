@@ -1,5 +1,4 @@
 @import "vars";
-@import "fonts";
 
 body {
   font-family: $body-font;
@@ -333,3 +332,5 @@ nav {
     }
   }
 }
+
+@import "fonts";

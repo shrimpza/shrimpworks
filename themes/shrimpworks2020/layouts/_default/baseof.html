@@ -8,6 +8,10 @@
 
 	<style type="text/css">{{ (resources.Get "layout.scss" | resources.ToCSS (dict "outputStyle" "compressed")).Content | safeCSS }}</style>
 
+	{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+	{{ $style := resources.Get "main.scss" | resources.ToCSS $options }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}"/>
+
 	{{ range .AlternativeOutputFormats -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s"/>` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
@@ -27,10 +31,6 @@
 
 		{{- partial "footer.html" . -}}
 	</div>
-
-	{{ $options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
-	{{ $style := resources.Get "main.scss" | resources.ToCSS $options }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}"/>
 </body>
 
 </html>
