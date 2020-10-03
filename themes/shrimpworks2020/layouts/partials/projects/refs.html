@@ -1,0 +1,12 @@
+{{ if .Params.refs }}
+<div class="refs">
+	{{- range $e := .Params.refs }}
+	{{ $url := urls.Parse $e }}
+	{{ $icon := "images/icons/links/world.svg" }}
+	{{ if eq $url.Host "github.com" }}{{ $icon = "images/icons/links/github.svg" }}{{ end }}
+  <a href="{{ $e }}">
+	  <img src="{{ $icon | absURL }}" class="icon" alt="link" /> {{ $url.Host }}
+	</a>
+	{{- end }}
+</div>
+{{ end }}

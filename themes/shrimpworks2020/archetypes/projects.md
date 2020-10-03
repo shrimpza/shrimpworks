@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 description: ""
-repo: ""
+refs: []
 tags: []
 lang: []
 weight: 0

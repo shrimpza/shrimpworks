@@ -3,6 +3,8 @@ published: true
 title: Units API
 lang: [PHP]
 description: Simple unit-of-measure conversion API
+refs:
+ - https://shrimpza.github.io/units-api/
 ---
 
 > [Hosted on GitHub](https://shrimpza.github.io/units-api/)

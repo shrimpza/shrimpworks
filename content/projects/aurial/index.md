@@ -3,6 +3,8 @@ published: true
 title: Aurial
 lang: [JavaScript]
 description: A browser client for streaming music from servers implementing the Subsonic API
+refs: 
+ - https://github.com/shrimpza/aurial
 ---
 
 > Forward: When Is switch to Linux full time, the one Windows application I 

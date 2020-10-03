@@ -4,6 +4,9 @@ title: Monster Hunt
 date: '2013-04-14 13:55:40 +0200'
 lang: [UnrealScript]
 description: Co-operative multiplayer monster hunting for Unreal Tournament
+refs:
+ - https://unreal2.co.za/mh/
+ - https://moddb.com/mods/monster-hunt
 ---
 
 > **14 April 2013 Update:** 

@@ -3,6 +3,8 @@ published: true
 title: Minimum Effort Search
 lang: [Java]
 description: Simple self-hosted full-text search using RedisSearch
+refs:
+ - https://github.com/shrimpza/minimum-effort-search
 ---
 
 > Forward: This project came about due to a desire to make the 
