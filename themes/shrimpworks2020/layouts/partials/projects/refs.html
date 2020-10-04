@@ -5,7 +5,7 @@
 	{{ $icon := "images/icons/links/world.svg" }}
 	{{ if eq $url.Host "github.com" }}{{ $icon = "images/icons/links/github.svg" }}{{ end }}
   <a href="{{ $e }}">
-	  <img src="{{ $icon | absURL }}" class="icon" alt="link" /> {{ $url.Host }}
+	  <img src="{{ $icon | absURL }}" class="icon" alt="link" alt="link" title="External Link"  /> {{ $url.Host }}
 	</a>
 	{{- end }}
 </div>

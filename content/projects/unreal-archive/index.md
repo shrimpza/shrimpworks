@@ -1,41 +1,55 @@
 ---
 published: true
-title: Unreal Package Lib
+title: Unreal Archive
 lang: [Java]
-description: Library for reading Unreal Engine package data
+description: A persistent archive of user-created Unreal and Unreal Tournament content.  
 refs:
- - https://github.com/shrimpza/unreal-package-lib
+ - https://unrealarchive.org/
+ - https://github.com/unreal-archive
 ---
 
-> [Hosted on GitHub](https://github.com/shrimpza/unreal-package-lib)
+> [Unreal Archive Post]({{< relref "2019-03-16-unreal-archive" >}})
 
-A small Java library for efficiently reading Unreal Engine packages.
+{{< gallery >}}
 
-Unreal Packages, are used by Unreal Engine games for packaging content such as
-maps, textures, sounds, and the gameplay code itself.
+Unreal Archive is an initiative to gather up, index, and catalogue
+as much Unreal, UT99 and UT2004 (and hopefully soon Unreal Torunament 3) 
+content as possible. So far, we have 
+[maps](https://unrealarchive.org/maps/),
+[map packs](https://unrealarchive.org/mapspacks/), 
+[voices](https://unrealarchive.org/voices/), 
+[skins](https://unrealarchive.org/skins/), 
+[mutators](https://unrealarchive.org/mutators/), 
+[player models](https://unrealarchive.org/models/), as well as support for
+things such as 
+[patches, updates and drivers](https://unrealarchive.org/patches-updates/) as
+well as a (currently very empty) section for 
+[written documents](https://unrealarchive.org/documents/) with the intent of 
+providing guides, tutorials, manuals, and other related documented knowledge
+which also seems to get lost and forgotten.
 
-Although the files all have different file extensions for organisation purposes
-only (for example, .unr or .ut2 for maps, .utx for textures, .u for code), they
-all have the same structure and are capable of holding the same content.
+The tech stack and some of the decisions involved may seem odd, but in keeping
+with the theme of longevity, preservation, and the general ease of losing 
+things on the internet, these are some of my motivations:
 
-This implementation supports Unreal Engines 1 and 2, with support for Unreal 
-Engine 3 in progress, and has been tested using content and assets from Unreal
-(1998), Unreal Tournament (1999), and Unreal Tournament 2003/4 (2004). 
-
-The implementation has focussed on supporting the above games for the purposes
-of making data available for the Unreal Archive, however other games using the
-Unreal Engine may Just Work, though some developers did introduce significant
-customisations to their engine versions, so your mileage may vary from game to
-game.   
-
-Also provided via the `Umod` class is the ability to read and extract the 
-contents of `.umod` installers, commonly used to distribute larger Unreal and
-Unreal Tournament modifications and total conversions.
-
-These can be combined with a `PackageReader` to support reading package 
-contents directly from UMOD files without needing to unpack the individual
-files first.
-
-Finally, reading of Unreal Engine's `.int` and `.ucl` files is provided via the
-`IntFile` class, which simplifies processing some of the non-INI file like
-properties contained within these files.
+- statically generated content - the website is generated as a collection of
+  plain HTML pages. This ensures no dependence on having to host a website
+  with any dependency on any sort of back-end service beyond the simplest of 
+  HTTP servers. specific pains have been taken to ensure it works well with
+  `file://` local resources as well, so it doesn't even need to be hosted!
+- written in Java - largely because I know it well enough to do this, but also
+  because it's not going anywhere soon, so the indexing and site generation
+  capabilities will remain in action for a long time.
+- data stored as YAML files - a fairly simple format that's also easily human-
+  readable. in 30 years when all the YAML parsers have died, if someone looks
+  at these files, they'll be easy to write new parsers for, if that's ever
+  needed.
+- the "database" is Git - easy to distribute amongst many people, and since
+  this is primarily an archive, the data does not change rapidly enough to
+  require anything more real-time.
+- built-ino mirroring functionality to either download the entire file base, 
+  or to transfer it to any compatible S3 bucket store, and contribute 
+  mirror links back to the main Archive.
+- the entire project is "licensed" under [UNLICENSE](https://unlicense.org/), 
+  with the intent of it being as absolutely open as possible, for as long as
+  possible.
