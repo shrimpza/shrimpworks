@@ -34,7 +34,3 @@ Rather than using the ImageShack or FTP support, set SaveScreen to save
 your images in a public DropBox folder for convenient storage and
 immediate publishing!
 
-Download
---------
-
-[Download SaveScreen 2]({{< resource savescreen2-setup.exe >}})
