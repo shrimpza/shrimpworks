@@ -92,6 +92,8 @@ $ sudo chmod 0640 /etc/myservice/config.env
 
 ### Define the SystemD service
 
+Create this file in `/etc/systemd/system/`, named `myservice.service`.
+
 ```ini
 [Unit]
 Description=My Service
@@ -161,7 +163,7 @@ Restart `rsyslog` with the updated configuration:
 $ sudo service rsyslog restart
 ```
 
-If your service generates a lot of logs, log roation could also be configured
+If your service generates a lot of logs, log rotation could also be configured
 at this point, by placing an entry in `/etc/logrotate.d/`. Refer to the other
 configuration files in that directory to get a sense of how they work.
 
@@ -180,6 +182,26 @@ You can also inspect or follow its logs:
 $ sudo tail -f /var/log/myservice.log
 ```
 
+### Enable or disable at startup
+
+If you want your service to automatically start each time the host reboots, 
+simply `enable` the service as follows:
+
+```sh
+$ sudo systemctl enable myservice
+```
+
+Similarly, to prevent services from starting up (this can also be handy for
+other services, like a DB or web service you've installed for development
+purposes but don't need or want running all the time):
+
+```sh
+$ sudo systemctl disable myservice
+```
+
+A disabled service can still be manually started and stopped with the
+`service myservice [start|stop|restart|status]` commands.
+
 ### Conclusion
 
 The above likely seems to be a rather lengthy process as I've laid it out, but
@@ -188,3 +210,6 @@ integrated into the host system, easily manageable logs, plus it's easier to
 monitor, manage and debug - especially for services you're developing and would
 like to know more about how it's behaving, without the complexity of additional
 layers between you and your code.
+
+This will also work perfectly well for non-Java services, simply adjust the
+`ExecStart` parameter as required for your other applications.
